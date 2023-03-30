@@ -1,0 +1,24 @@
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  &-div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0.5rem;
+  }
+  &-counter {
+    color: navy;
+    font-weight: bold;
+  }
+  &-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &-icon {
+    color: darkgreen;
+    font-size: 1.5rem;
+  }
+}
