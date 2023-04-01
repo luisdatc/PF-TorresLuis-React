@@ -1,24 +1,19 @@
 .cart {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;//centrar el carrito sino flex end
   font-size: 1.5rem;
-  &-div {
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 0.5rem;
-  }
+  padding: 0.5rem;
   &-counter {
-    color: navy;
+    color: rgba(10, 224, 38, 0.897);
     font-weight: bold;
   }
   &-button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-  }
-  &-icon {
-    color: darkgreen;
-    font-size: 1.5rem;
+    &-icon {
+      font-size: 1.5rem;
+    }
   }
 }

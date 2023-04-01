@@ -3,36 +3,34 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-brand">
+    <nav className="nav">
+      <div className="nav-brand">
         <a href="">
           <img
-            src="../src/assets/logo-wbg.png"
+            src="../src/assets/LOGO1.png"
             alt="Brand Logo"
-            className="logo-brand"
+            className="nav-brand-logo"
           />
         </a>
       </div>
-      <div>
-        <ul className="nav-list">
-          <li>
-            <a className="nav-links" href="">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="nav-links" href="">
-              Productos
-            </a>
-          </li>
-          <li>
-            <a className="nav-links" href="">
-              About Us
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className="cart">
+      <ul className="nav-list">
+        <li>
+          <a className="nav-list-links" href="">
+            Home
+          </a>
+        </li>
+        <li>
+          <a className="nav-list-links" href="">
+            Productos
+          </a>
+        </li>
+        <li>
+          <a className="nav-list-links" href="">
+            About Us
+          </a>
+        </li>
+      </ul>
+      <div className="nav-cart">
         <CartWidget />
       </div>
     </nav>
