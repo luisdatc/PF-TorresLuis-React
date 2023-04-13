@@ -1,0 +1,964 @@
+[
+  {
+    "id": 1,
+    "nombre": "Resident Evil 2 Remake",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/residentevil2.jpg",
+    "precio": 14999,
+    "genero": "Horror",
+    "descripcion": "Resident Evil 2 Remake es la puesta al día del clásico original del género survival horror para Xbox One, PlayStation 4 y PC, que coincide con el vigésimo aniversario de la saga Resident Evil. Supone un cambio de perspectiva jugable, de estilo de juego y de ambientación, un concepto muy ambicioso desde el plano técnico y artístico pero que mantendrá la esencia del emblemático videojuego que marcó un antes y un después.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 2,
+    "nombre": "The Last of Us Part II",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/tlofp2.png",
+    "precio": 15600,
+    "genero": "Aventura",
+    "descripcion": "The Last of Us 2 es la secuela de The Last of Us, uno de los juegos más aclamados de la consola PS3, que apareció en 2015 en PS4 en versión remasterizada. Esta continuación ha sido anunciada en el evento PlayStation Experience de diciembre de 2016, generando grandísimas expectativas entre los jugadores. Tal y como se sospechaba, controlaremos principalmente a la chica y el estilo de juego cambiará por ello. Ellie tiene ahora 19 años y muchas más capacidades que cuando la conocimos por primera vez en 2013. No se ha dicho cómo cambiará la jugabilidad, pero sí que el tono de esta entrega será algo más oscuro que el del original. Ya no es una historia de supervivencia, sino de venganza.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 3,
+    "nombre": "God of War",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/gow.webp",
+    "precio": 8999,
+    "genero": "Aventura",
+    "descripcion": "God of War es la vuelta de Kratos a los videojuegos tras la trilogía original. Esta nueva entrega para PlayStation 4, si bien mantendrá varios de los ingredientes indivisibles de su jugabilidad, apostará por un nuevo comienzo para el personaje y una ambientación nórdica, ofreciéndonos una perspectiva más madura y realista de la mitología de dioses y monstruos milenarios habitual en la serie de títulos. En God of War, Kratos será un guerrero más curtido y pasivo, pues tendrá que desempeñar el rol de padre en un frío y hostil escenario, al que parece haberse retirado para olvidar su pasado.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 4,
+    "nombre": "Assassin's Creed Valhalla",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/valhalla.jpg",
+    "precio": 17500,
+    "genero": "RPG",
+    "descripcion": "Assassin's Creed Valhalla es la nueva entrega de Assassin's Creed de Ubisoft, la saga de acción y aventuras en mundo abierto más famosa de la desarrolladora de videojuegos. En esta ocasión, y siguiendo con los toques RPG de las últimas entregas, viajaremos al siglo IX después de Cristo, llegando a una Gran Bretaña invadida por vikingos. Está disponible para Xbox One, Xbox Series S/S, PlayStation 4, PlayStation 5 y PC.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 5,
+    "nombre": "Resident Evil 3 Remake",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/residentevil3.jpg",
+    "precio": 13799,
+    "genero": "Horror",
+    "descripcion": "Resident Evil 3 Remake es la reinterpretación del clásico de Capcom, Resident Evil 3: Nemesis, la tercera parte de la trilogía original de survival horror. Siguiendo con las pasos de la segunda parte, y con un aspecto jugable y gráfico renovado en base a las actuales plataformas, nos contará la historia de Jill Valentine y su huida de la ciudad de Raccoon City infestada por el virus T. Incluirá el modo multijugador Resident Evil Resistance.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 6,
+    "nombre": "Ghost of Tsushima",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/tsushima.jpg",
+    "precio": 19699,
+    "genero": "Acción",
+    "descripcion": "Sucker Punch, creadores de la saga inFamous presentan un nuevo videojuego de acción, sigilo y aventura para PlayStation 4 de forma exclusiva, que cambia la ambientación de ciencia ficción y personajes mutantes para trasladarnos a un pasado histórico de gran veracidad. Ghost of Tsushima nos llevará a un Japón feudal exquisitamente recreado en lo que es uno de los videojuegos más ambiciosos de la plataforma de Sony.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 7,
+    "nombre": "Red Dead Redemption",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/redemption2.jpg",
+    "precio": 15000,
+    "genero": "Acción",
+    "descripcion": "Red Dead Redemption 2 es la secuela del videojuego de éxito de Rockstar Red Dead Redemption (2010), considerado como uno de los mejores títulos de la compañía. Se trata de la tercera entrega de la saga Red Dead, iniciada en 2004 con Red Dead Revolver y nos trasladará de nuevo al Salvaje Oeste para ponernos en el escenario de mundo abierto más grande jamás creado por los padres de Grand Theft Auto y contarnos una historia sobre forajidos, venganza y atracos en un escenario de gran realismo en PlayStation 4 y Xbox One.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 8,
+    "nombre": "Dragon Ball Z: Kakarot",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/dragonball.jpg",
+    "precio": 18899,
+    "genero": "RPG",
+    "descripcion": "Dragon Ball Game Project Z: Action RPG es un nuevo videojuego de rol y acción basado en Dragon Ball para Xbox One, PC y PS4 que nos narrará las aventuras de Goku durante la saga de Dragon Ball Z. Según ha confirmado CyberConnect2, responsables del videojuego, el título se centra en una de las etapas doradas del manga y el anime, contándonos los eventos sucedidos en aquellos momentos de una forma inédita y muy espectacular.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 9,
+    "nombre": "Resident Evil 7: Biohazard",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/residentevil7.jpg",
+    "precio": 7699,
+    "genero": "Terror",
+    "descripcion": "Resident Evil 7 Biohazard es un videojuego de terror desarrollado y producido por Capcom para las plataformas de PS4, Xbox One y Pc, compatible además con gafas de realidad virtual. Se trata de la séptima entrega de esta serie, que ofrece un cambio radical respecto a anteriores títulos de la saga, con el objetivo de volver a sus orígenes. Siguiendo la estela de otros juegos de miedo, Resident Evil 7 adopta la perspectiva en primera persona para dale un nuevo giro a la fórmula y sumergir al jugador en su atmósfera.",
+    "lanzamiento": 2017
+  },
+  {
+    "id": 10,
+    "nombre": "Sekiro: Shadows Die Twice",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/sekiro.webp",
+    "precio": 27000,
+    "genero": "RPG",
+    "descripcion": "Sekiro: Shadows Die Twice es el nuevo videojuego de FromSoftware, el reputado estudio creador de obras maestras como Tenchu, Bloodborne o Dark Souls. Se trata de un aventura de rol, acción y sigilo para Xbox One, PS4 y PC diseñado y dirigido por Hidetaka Miyazaki, uno de los diseñadores de videojuegos más influyentes de la última época y responsable de haber definido un género propio. Sekiro apuesta por una ambientación única, en el Japón feudal y una jugabilidad distinta.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 11,
+    "nombre": "The Last of Uf Remastered",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/tlofp1.jpg",
+    "precio": 8999,
+    "genero": "Aventura",
+    "descripcion": "The Last of Us Remastered para PS4 es una adaptación a la consola de Sony de uno de los mejores juegos de PS3. Esta versión remasterizada contará con mejoras gráficas respecto al original y con todo el contenido descargable extra lanzado, como la campaña Left Behind.",
+    "lanzamiento": 2014
+  },
+  {
+    "id": 12,
+    "nombre": "Assassin's Creed Odyssey",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/odyssey.jpg",
+    "precio": 15000,
+    "genero": "Acción",
+    "descripcion": "Assassin's Creed Odyssey es la nueva entrega de la saga de Assassin's Creed tras Assassin's Creed Origins. Desarrollada por Ubisoft Quebec, se trata de una vuelta de tuerca a la habitual propuesta de acción y aventura en mundo abierto de la serie, apostando en esta ocasión por una ambientación en la Antigua Grecia y un estilo de videojuego más enfocado al rol para PS4, One y PC.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 13,
+    "nombre": "Spider-Man",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/spiderman.webp",
+    "precio": 12000,
+    "genero": "Acción",
+    "descripcion": "Spider-Man para PS4 es un videojuego de acción y aventuras con un estilo jugable de mundo abierto, que permite al jugador desplazarse de un lugar a otro con total libertad de movimientos y que tiene por escenario donde se desarrolla la historia, la ciudad de Nueva York. La historia, totalmente original y nunca antes contada, nos pone en la piel de un Peter Parker mucho más experimentado y maduro que deberá lidiar con los problemas que suponen el tener que salvar a una ciudad entera como Manhattan de las atrocidades de los peores criminales y compatibilizarlo con su vida personal.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 14,
+    "nombre": "Horizon: Zero Dawn",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/horizon1.jpg",
+    "precio": 12999,
+    "genero": "RPG",
+    "descripcion": "Horizon: Zero Dawn es un juego de aventuras en mundo abierto, con dosis acción y exploración en tercera persona a cargo de Guerrilla Games, responsables de Killzone. Ambientado en un futuro apocalíptico distante, los seres humanos han experimentado una regresión tecnológica que los ha devuelto a la edad de piedra y dividido en tribus. Encarnando a Aloy, una hábil cazadora, deberemos descubrir secretos del pasado, así como sobrevivir en un nuevo mundo plagado de criaturas robóticas inteligentes, hostiles y muy peligrosas.",
+    "lanzamiento": 2017
+  },
+
+  {
+    "id": 15,
+    "nombre": "Final Fantasy VII Remake",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/fantasy-vii.jpg",
+    "precio": 21250,
+    "genero": "JRPG",
+    "descripcion": "Nueva adaptación de la obra maestra del rol japonés. El remake del séptimo capítulo de la saga nos trasladará al mundo de la entrega original de PlayStation y PC, renovando sus gráficos para la consola PlayStation 4, añadiendo nuevos detalles la historia, así como aportando presumibles cambios jugables al sistema de batallas y de exploración. Este nuevo 'Final Fantasy VII' tiene detrás al mismo equipo creativo del original.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 16,
+    "nombre": "Uncharted 4: A Thiefts End",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/uncharted.jpg",
+    "precio": 11999,
+    "genero": "Aventura",
+    "descripcion": "Uncharted 4: El Desenlace del Ladrón es la llegada de Nathan Drake a la nueva generación de videojuegos, en una cuarta parte de la serie desarrollada por Naughty Dog que nos llevará de nuevo a vivir aventuras en los lugares más recónditos del mundo.",
+    "lanzamiento": 2016
+  },
+  {
+    "id": 17,
+    "nombre": "Mortal Kombat 11",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/mortal.jpg",
+    "precio": 14998,
+    "genero": "Lucha",
+    "descripcion": "Mortal Kombat 11 es la nueva entrega de la violenta y salvaje saga de lucha de NetherRealm Studios para consolas y PC. Se trata de la undécima secuela de una serie de títulos de combate y peleas de marcada estructura 2D, que en esta ocasión, además de añadir los mejores gráficos de la serie y el gore más descarnado en los llamados Fatality, presentará luchadores clásicos y nuevos, más modos de juego y una oferta online que quiere marcar un antes y un después en los eSports.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 18,
+    "nombre": "Batman: Arkham Knight",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/batman.jpg",
+    "precio": 11279,
+    "genero": "Aventura",
+    "descripcion": "Batman: Arkham Knight para PS4 es un nuevo videojuego de Batman que cerrará la saga Arkham del personaje de DC Comics en los videojuegos. Desarrollado por los creadores de Arkham Asylum y Arkham City, el título tiene lugar un año después de los sucesos de éste, enfrentándose Batman de nuevo a un grupo de villanos, liderados por el misterioso Arkham Knight. Volveremos a contar con libertad para explorar Gotham, y esta vez podremos conducir el Batmóvil.",
+    "lanzamiento": 2015
+  },
+  {
+    "id": 19,
+    "nombre": "Call of Duty: Black Ops III",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/cod-black.jpg",
+    "precio": 7999,
+    "genero": "Shooter",
+    "descripcion": "Black Ops III para PS4 se centra en las bases de la saga para acelerar el combate, el movimiento fluido y dar una personalidad diferente a otros episodios. Además, incluye por primera vez la posibilidad de jugar la campaña entre cuatro jugadores, de manera cooperativa. Incluirá un sistema de clases para que cada jugador disponga de características únicas -de ahí sus semejanzas con el último juego de Bungie-. En Black Ops III hay especialistas, nueve en total, cada uno con dos habilidades, un arma especial y un movimiento o ventaja, similar a la e",
+    "lanzamiento": 2015
+  },
+  {
+    "id": 20,
+    "nombre": "Final Fantasy XV",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/fantaxy-xv.jpg",
+    "precio": 16690,
+    "genero": "JRPG",
+    "descripcion": "Final Fantasy XV es un videojuego de acción y rol desarrollado por Square Enix, que en etapas tempranas de desarrollo se dio a conocer bajo el nombre de Final Fantasy versus XIII, para posteriormente pasar a formar parte como la decimoquinta entrega numerada de la saga. Además sus acontecimientos están relacionados con la película Final Fantasy XV Kingslaive.",
+    "lanzamiento": 2016
+  },
+  {
+    "id": 21,
+    "nombre": "Digimon World: Next Order",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/digimon.jpg",
+    "precio": 9539,
+    "genero": "JRPG",
+    "descripcion": "Digimon World: Next Order es un juego de rol de Digimon protagonizado por dos personajes: el estudiante de instituto japonés Takuto, antes aficionado a Digimon, y Shiki, uno de sus compañeros. La jugabilidad será similar a la de Digimon World, Re:Digitize y Decode, pero con un segundo entrenador como compañero.",
+    "lanzamiento": 2017
+  },
+  {
+    "id": 22,
+    "nombre": "The Elder Scrolls V: Skyrim",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/skyrim.jpg",
+    "precio": 19549,
+    "genero": "RPG",
+    "descripcion": "The Elder Scrolls V: Skyrim: Special Edition para PS4 es una remasterización de The Elder Scrolls V cinco años después del lanzamiento del original y para la nueva generación de consolas. Cuenta con todo el contenido del juego de 2011, más los tres packs de contenido descargables lanzados, más soporte para mods. Además, sus gráficos han sido rehechos para la nueva generación.",
+    "lanzamiento": 2016
+  },
+  {
+    "id": 23,
+    "nombre": "Crash Bandicoot 4",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/crash.jpg",
+    "precio": 21592,
+    "genero": "Aventura",
+    "descripcion": "Crash Bandicoot 4: It's About Time es la cuarta entrega de la emblemática saga de plataformas en 3D protagonizada por Crash Bandicoot para Xbox One y PS4. Recuperando la fórmula clásica, Toys for Bob ha querido mantener la estructura de los niveles lineales, las habilidades del jugador y la idea de romper cajas, recoger wumpas y evitar numerosas trampas",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 24,
+    "nombre": "Marvel's Avengers",
+    "plataforma": "PS4",
+    "imagen": "/public/stock/ps4/avengers.jpg",
+    "precio": 9499,
+    "genero": "Acción",
+    "descripcion": "Marvel's Avengers es un videojuego de acción y aventura para un jugador con opciones de cooperativo online que nos invitará a encarnar a los héroes más poderosos de la Tierra. Desarrollado por Square Enix, Crystal Dynamics y Eidos Montreal, el título nos llevará a encarnar a los célebres personajes de Marvel como Thor, Capitán América, Hulk, Iron Man o la Viuda Negra a lo largo y ancho de un mundo en continua expansión.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 25,
+    "nombre": "TLoZ: Breath of the Wild",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/breath-of-wild.jpg",
+    "precio": 29599,
+    "genero": "RPG",
+    "descripcion": "The Legend of Zelda: Breath of the Wild es un videojuego exclusivo de Nintendo, desarrollado, producido y distribuido por la misma compañía, para las videoconsolas Wii U y Nintendo Switch. Se trata de la decimo-octava entrega de la saga Zelda, pero también es el primer juego de la popular serie para la consola de última generación de Nintendo. El título promete un estilo visual completamente nuevo con el que desmarcarse de todo lo visto hasta el momento con colores muy vivos y llamativos y unos gráficos que aprovechan a la perfección la técnica de Cel Shading. De igual forma su director Eiji Anouma prometió cambios sustanciales en lo que a jugabilidad se refiere.",
+    "lanzamiento": 2017
+  },
+  {
+    "id": 26,
+    "nombre": "Metroid Prime Remastered",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/metroid-prime.jpg",
+    "precio": 31761,
+    "genero": "Aventura",
+    "descripcion": "El clásico de Retro Studios modernizado para Nintendo Switch. Recorre en primera persona los caminos sinuosos y entornos interconectados de un fascinante pero peligroso planeta alienígena. Usa distintas habilidades, como el conocido rayo enganche y la famosa Morfosfera, para acceder a áreas difíciles de alcanzar y abrirte camino en la aventura. Además, esta versión llega con gráficos y sonido mejorados, ilustraciones desbloqueables y controles actualizados: el debut en tres dimensiones de Samus llega más lejos que nunca con nuevos controles de palanca dual, apunta con un sistema de movimiento intuitivo, u opta por los controles clásicos o decántate por una mezcla de controles nuevos y antiguos.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 27,
+    "nombre": "Mario Party Superstars",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/superstars.jpg",
+    "precio": 26000,
+    "genero": "Minijuegos",
+    "descripcion": "Conviértete en una superestrella en el modo Mario Party, un juego de tablero repleto de diversión en el que tu suerte puede cambiar de un momento a otro. ¡Juega en línea a este y otros modos de juego!Riega plantas, compite en carreras de coches, estira caras y más en una colección superestelar de 100 disparatados minijuegos de la serie Mario Party.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 28,
+    "nombre": "Super Smash Bros. Ultimate",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/smash-bros.jpg",
+    "precio": 28000,
+    "genero": "Lucha",
+    "descripcion": "Super Smash Bros. Ultimate es la nueva entrega para Nintendo Switch de la popular saga de Nintendo centrada en el género de lucha, en la que personajes como Super Mario, Zelda, Samus de Metroid, Donkey Kong o Pikachu de Pokémon por citar algunos, combaten en los más variados escenarios extraídos del legado digital de la empresa japonesa, así como de compañías invitadas de la talla de Capcom, Bandai Namco, SEGA o Konami. Con el plantel de héroes, heroínas y villanos más grande hasta la fecha, con nuevos modos de juego y una jugabilidad clásica, Ultimate supone el punto álgido de una licencia emblemática de Nintendo.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 29,
+    "nombre": "Super Mario 3D All-Stars",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/mario-allstars.jpg",
+    "precio": 25000,
+    "genero": "Plataformas",
+    "descripcion": "Super Mario 3D All-Stars es un recopilatorio para Nintendo Switch de tres de los mejores videojuegos de plataformas en tres dimensiones del fontanero más famoso del ocio digital. El pack para la consola de Nintendo, incluye tres títulos como Super Mario 64, Super Mario Sunshine y Super Mario Galaxy.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 30,
+    "nombre": "Mario Kart 8 Deluxe",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/mario-kart.jpg",
+    "precio": 27400,
+    "genero": "Carreras",
+    "descripcion": "Mario Kart 8 Deluxe es una remasterización para Nintendo Switch de este exitoso y aclamado juego de Wii U. Llegará a las tiendas el 28 de abril y, además de ofrecer mejores gráficos, también contará con nuevos personajes, ajustes jugables y un renovado Modo Batalla. De esta forma, Mario Kart 8 Deluxe tendrá 48 circuitos (los 32 del original más los 16 de los DLC) y 40 personajes, cinco de ellos nuevos. Estos son Inkling chico e Inkling chica de Splatoon, el Rey Boo, Huesitos y Bowsy, así como nuevas piezas con las que configurar nuestros vehículos.",
+    "lanzamiento": 2017
+  },
+  {
+    "id": 31,
+    "nombre": "Marvel Ultimate Alliance 3",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/ultimate-alliance.jpg",
+    "precio": 27699,
+    "genero": "RPG",
+    "descripcion": "Marvel Ultimate Alliance 3: The Black Order es un videojuego de rol y acción desarrollado por Team Ninja y Koei Tecmo en colaboración Marvel y la propia Nintendo. Diseñado para Nintendo Switch, nos permite tomar las riendas de un equipo de cuatro héroes extraídos de las viñetas de la Casa de las Ideas para defender la Tierra de Thanos y su Orden Negra.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 32,
+    "nombre": "Shin Megami Tensei V",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/megami-tensei.png",
+    "precio": 36999,
+    "genero": "JRPG",
+    "descripcion": "Shin Megami Tensei para Nintendo Switch será el próximo capítulo de esta veterana saga de juegos de rol que cambia las clásicas ambientaciones de fantasía medieval por las que se caracteriza el género por otras mucho más modernas y actuales. El título vuelve a estar desarrollado por Atlus y su anuncio se realizó para celebrar su vigésimo quinto aniversario desde que la serie debutase en 1992 para Super Nintendo en el mercado japonés. Desde entonces, ha recibido cuatro entregas numeradas y multitud de spin-offs y secuelas.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 33,
+    "nombre": "Pikmin 3 Deluxe",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/pikmin.jpg",
+    "precio": 28099,
+    "genero": "Estrategia",
+    "descripcion": "Pikmin 3 Deluxe es la versión completa y remasterizada del clásico de Wii U en Nintendo Switch. Además de continuar con la historia de estos seres extraterrestres, el título presenta varias novedades respecto al original, como un modo cooperativo para dos jugadores en la misma consola y en la historia principal, nuevas aventuras en solitario o en compañía en un nuevo prólogo y epílogo con los héroes de Pikmin 2, Olimar y Luis, mejoras en la jugabilidad como un sistema de puntería mejorado, cambios para equilibrar a los enemigos o distintos modos de dificultad.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 34,
+    "nombre": "Diablo III: Eternal Collection",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/diablo3.jpg",
+    "precio": 18899,
+    "genero": "RPG",
+    "descripcion": "Diablo III: Eternal Collection es la conversión y adaptación del emblemático videojuego de rol y acción de Blizzard para Nintendo Switch. Supone el reencuentro de la compañía con Nintendo desde el lejano lanzamiento de StarCraft 64 en Nintendo 64, con un juego que reúne todas las expansiones y contenidos lanzados hasta la fecha en el título, incluyendo las dos expansiones Reaper of Souls y Rise of the Necromancer, así como nuevos contenidos exclusivos y elementos únicos para la híbrida.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 35,
+    "nombre": "TLoZ: Tears of the Kingdom",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/tears-kingdom.jpg",
+    "precio": 25000,
+    "genero": "Aventura",
+    "descripcion": "The Legend of Zelda: Breath of the Wild 2 es la segunda parte de Breath of the Wild, el título que revolucionó los mundos abiertos y el concepto de la saga Zelda en Nintendo Switch y Wii U. Desarrollada por Nintendo y producida y dirigida por Eiji Aonuma, la secuela nos llevará de nuevo a un Hyrule extenso aunque mucho más oscuro y retorcido tras la vuelta de un mal encarnado por Ganon.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 36,
+    "nombre": "Monster Hunter Rise",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/monster-hunter.jpg",
+    "precio": 19499,
+    "genero": "Acción",
+    "descripcion": "Monster Hunter Rise es la nueva entrega de la saga de acción en tercera persona Monster Hunter de Capcom para Nintendo Switch. En esta secuela, que volverá a invitarnos a cazar enormes criaturas, crear grandes armas y armaduras y enfrentarnos a dragones y seres de todo tipo, se busca ofrecer un gran mundo abierto sin saltos de una región a otra, potenciado los distintos niveles para dar más verticalidad y altura.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 37,
+    "nombre": "Luigi's Mansion 3",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/mansion3.jpg",
+    "precio": 27299,
+    "genero": "Aventura",
+    "descripcion": "Luigi's Mansion 3 es la tercera parte de una saga de aventura, acción y survival horror protagonizada por Luigi, el famoso fontanero hermano de Mario. Originada en GameCube y llevada con gran éxito a Nintendo 3DS, ahora visita por primera vez Nintendo Switch añadiendo novedades jugables y un estilo gráfico increíble para la portátil. En esta ocasión, nuestro querido personaje deberá luchar y enfrentarse a fantasmas y terrores de todo tipo mientras busca atraparlos en su nueva mochila atrapaentes.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 38,
+    "nombre": "Animal Crossing",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/animal-crossing.jpg",
+    "precio": 25899,
+    "genero": "Simulación",
+    "descripcion": "Animal Crossing: New Horizons es la nueva secuela de la saga Animal Crossing para Nintendo Switch. Desarrollada por Nintendo, se trata de un capítulo más en la serie de gestión, recolección, decoración y simulación de vida de la empresa japonesa, que se ha ganado por derecho propio ser una de las más reputadas tras las exitosas entregas de Nintendo DS y Nintendo 3DS. En esta ocasión, viajaremos a una isla desierta y construiremos nuestro pueblo desde cero, mientras entablamos amistado con otros vecinos.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 39,
+    "nombre": "Bayonetta 3",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/bayoneta3.jpg",
+    "precio": 29990,
+    "genero": "Acción",
+    "descripcion": "Bayonetta 3 es la tercera entrega, programada y desarrollada por PlatinumGames, de la famosa saga de hack and slash protagonizada por la famosa bruja. El videojuego está pensado en exclusiva para Nintendo Switch, la consola de Nintendo.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 40,
+    "nombre": "Super Mario 3D World",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/mario-3d.jpeg",
+    "precio": 27610,
+    "genero": "Plataformas",
+    "descripcion": "Super Mario 3D World + Bowser's Fury es la nueva versión para Nintendo Switch del juego de plataformas en 3D publicado en Wii U en 2013. Además de los ajustes gráficos en términos de definición o resolución, el título incluye un nuevo modo multijugador cooperativo, así como mejoras en la jugabilidad entre las que destacan las compatibilidades y los movimientos diseñados para los Joy-Con de la portátil. Incluye asimismo una nueva expansión inédita, Bowser's Fury.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 41,
+    "nombre": "Pokemon Violet",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/violet.webp",
+    "precio": 27610,
+    "genero": "JRPG",
+    "descripcion": "Pokémon Scarlet y Pokémon Violet serán los primeros RPG de mundo abierto de la saga Pokémon. Podrás seguir disfrutando de los clásicos de siempre, como descubrir Pokémon, entrenarlos, intercambiarlos, combatir y formar tu equipo con ellos, mientras te sumerges en esta enorme y nueva aventura. Disfrutarás de una aventura con un estilo totalmente nuevo, en el que podrás explorar libremente y sin tener que seguir un orden establecido por la trama. Por supuesto, además de todos los descubrimientos y las historias que están esperándote, tendrás que perfeccionar tus habilidades como Entrenador o Entrenadora. Conoce a los habitantes de la región y a muchos Pokémon y adéntrate en el mundo de Pokémon como quieras.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 42,
+    "nombre": "Pokemon Diamante Brillante",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/diamante.png",
+    "precio": 46999,
+    "genero": "JRPG",
+    "descripcion": "Pokémon Diamante Brillante/ Perla Reluciente es el remake para Nintendo Switch de las entregas para Nintendo DS. En esta adaptación para la consola de Nintendo, se ha manteniendo la región de Sinnoh tal y como conocimos, y no se ha alterado ni la historia ni el tamaño de los pueblos y las rutas originales, que serán exactas a lo visto en los juegos originales de Pokémon. En cambio, se ha apostado por un apartado gráfico mejorado, con nuevos detalles en los escenarios y batallas tridimensionales.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 43,
+    "nombre": "Super Mario Odissey",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/mario-odyssey.jpg",
+    "precio": 29600,
+    "genero": "Plataformas",
+    "descripcion": "Mario regresa a los videojuegos con su primer gran título para Nintendo Switch. En esta ocasión lo hace con un juego en 3D de mundo abierto que recuerda en estética y jugabilidad a lo visto en Super Mario 64 o los juegos de la serie en Game Cube, pero que además incluye una gran cantidad de novedades, los mejores gráficos de la saga e interesantes mecánicas jugables como la gorra, la cual tendrá un gran protagonismo y ofrecerá diversas funcionalidades como ayudarnos a recorrer el escenario o la capacidad de controlar a los enemigos, obteniendo así increíbles y variadas habilidades.",
+    "lanzamiento": 2017
+  },
+  {
+    "id": 44,
+    "nombre": "Metroid Dread",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/metroid-dread.jpg",
+    "precio": 24999,
+    "genero": "Aventura",
+    "descripcion": "Metroid Dread es la nueva entrega de la saga de acción, plataformas y aventuras Metroid en clave de dos dimensiones. Diseñado para Nintendo Switch, el videojuego sirve como secuela de Metroid Fusion y está desarrollado por MercurySteam, el estudio español que ya trabajó en Samus Returns.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 45,
+    "nombre": "TLoZ: Skyward Sword HD",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/skyward.jpg",
+    "precio": 31000,
+    "genero": "RPG",
+    "descripcion": "The Legend of Zelda Skyward Sword HD es la remasterización del juego de rol y acción en tercera persona de la saga Zelda para Nintendo Switch. Esta versión incluye varios cambios con respecto al original, algo que se nota sobre todo en los esquemas de controles, que ahora permiten jugarlo también sin necesidad de control por movimiento, y en los gráficos, cuya calidad se ha mejorado para alcanzar la alta",
+    "lanzamiento": 2021
+  },
+
+  {
+    "id": 46,
+    "nombre": "Fire Emblem Engage",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/fire-emblem.jpg",
+    "precio": 27150,
+    "genero": "Estrategia",
+    "descripcion": "La nueva entrega de la serie Fire Emblem se desarrolla en Elyos, un continente formado por cuatro naciones que rodean un Tierra Sagrada. Hace mil años se desencadenó una cruenta guerra entre Elyos y el Dragón Caído. Durante el conflicto, los habitantes de Elyos invocaron a héroes de otros mundos para que los ayudaran: los llamados Emblemas. Los guerreros de las distintas naciones lucharon unidos junto a ellos y, finalmente, lograron desterrar al Dragon Caído. Sin embargo, ciertas señales auguran el inminente regreso de este temible enemigo.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 47,
+    "nombre": "Xenoblade Chronicles 3",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/xenoblade.jpg",
+    "precio": 28450,
+    "genero": "RPG",
+    "descripcion": "Xenoblade Chronicles 3 es un emocionante juego de rol para Nintendo Switch. Únete a Noah, Mio y sus amigos mientras recorren paisajes majestuosos, se enfrentan a bestias feroces y luchan para romper el ciclo de violencia sin fin que asola sus tierras.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 48,
+    "nombre": "Kirby's Return to Dream Land",
+    "plataforma": "Nintendo Switch",
+    "imagen": "/public/stock/switch/kirby.jpg",
+    "precio": 29999,
+    "genero": "Plataformas",
+    "descripcion": "El héroe rosa de Nintendo regresa en Kirby's Return to Dream Land Deluxe, una nueva versión de Kirby's Adventure. Juega con hasta otras tres personas o atrévete con una gran aventura en solitario en la versión mejorada de este título de plataformas de Wii, que incluye nuevas habilidades, subjuegos y una historia adicional protagonizada por Maglor, el viajero interdimensional.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 49,
+    "nombre": "Atomic Heart",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/atomic-heart.jpg",
+    "precio": 16099,
+    "genero": "Shooter",
+    "descripcion": "Atomic Heart es un videojuego de acción en primera persona con toques de supervivencia para Xbox Series X, PS5 y PC, así como Xbox One y PS4. El título, desarrollado por Mindfish nos trasladará a un Moscú alternativo en el que los usuarios tendrán que arreglárselas para devolver la paz a un terreno convulso y peligroso, destrozado por el inminente colapso de una todopoderosa y omnipresente Unión Soviética.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 50,
+    "nombre": "Sons of the Forest",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/sons-forest.webp",
+    "precio": 7499,
+    "genero": "Aventura",
+    "descripcion": "Sons of the Forest continuará la historia del primer juego, The Forest, con el protagonista volviendo a la isla en la que los personajes vivieron innumerables horrores para conseguir sobrevivir. Se introducirán nuevos elementos, como un GPS, se desarrollarán las habilidades de supervivencia, se añaden nuevos comportamientos a las criaturas conocidas y a las nuevas, se implementa un sistema más agresivo de lluvia, frío y calor, y se contará con nuevas armas.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 51,
+    "nombre": "The Callisto Protocol",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/callisto-protocol.jpg",
+    "precio": 16500,
+    "genero": "Acción",
+    "descripcion": "The Callisto Protocol es un juego de acción y terror con planteamiento de survival horror para PS5, Xbox Series S/X y PC que lleva a los jugadores a una historia que transcurre en el año 2320 en Calisto, uno de los satélites de Júpiter. El objetivo del título es marcar un punto de inflexión en el género de horror y supervivencia en esta nueva generación, justo como hizo Dead Space.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 52,
+    "nombre": "Cyberpunk 2077",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/cyberpunk-2077.jpg",
+    "precio": 17399,
+    "genero": "Mundo Abierto",
+    "descripcion": "Cyberpunk 2077 es el nuevo videojuego de rol en primera persona con estructura de mundo abierto de CD Projekt RED. Los padres de The Witcher nos presentan para Xbox One, PC y PS4 una aventura de corte futurista y ciberpunk en la que encarnaremos a un personaje diseñado a nuestra medida y en la que tendremos que sobrevivir en una peligrosa urbe plagada de corporaciones, ciborgs, bandas y las más variadas amenazas tecnológicas.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 53,
+    "nombre": "Star Wars Jedi: Fallen Order",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/star-wars.jpg",
+    "precio": 11900,
+    "genero": "Aventura",
+    "descripcion": "Star Wars Jedi: Fallen Order es un juego de acción y aventura para un jugador en tercera persona que nos trasladará a una época convulsa en la cronología de Star Wars. Desarrollado por EA y Respawn Entertainment, nos invita a encarnar a un Jedi que ha permanecido oculto a la exterminación de su religión tras la Orden 66. Nuestra misión será la de sobrevivir al recién fundado Imperio Galáctico, combatiendo contra los Inquisidores y descubriendo más de la fragmentada y proscrita Orden Jedi.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 54,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/witcher.jpg",
+    "precio": 12900,
+    "genero": "Mundo Abierto",
+    "descripcion": "The Witcher 3 es la tercera entrega de la saga The Witcher desarrollada por CD Projekt para PS4, Xbox One y Pc. Se trata de un videojuego que mezcla elementos de aventura, acción y rol en un mundo abierto épico basado en la fantasía. El jugador controlará una vez más a Geralt de Rivia, el afamado cazador de monstruos, (también conocido como el Lobo Blanco) y se enfrentará a un diversificadísimo bestiario y a unos peligros de unas dimensiones nunca vistas hasta el momento en la serie, mientras recorre los reinos del Norte. Durante su aventura, tendrá que hacer uso de un gran arsenal de armas, armaduras y todo tipo de magias para enfrentarse al que hasta ahora ha sido su mayor desafío, la cacería salvaje. Este videojuego ha sido galardonado como el mejor juego del año 2015 tanto por críticos especializados como por galas de premios como los “Golden Joystick Awards”, “Game Developers Choice Awards” y “The Game Awards”. Además cuenta con 2 DLC o Expansiones: Blood and wine, y Hearts of Stone.",
+    "lanzamiento": 2015
+  },
+  {
+    "id": 55,
+    "nombre": "Dying Light 2",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/dying-light.jpg",
+    "precio": 20199,
+    "genero": "Mundo Abierto",
+    "descripcion": "Dying Light 2 es la secuela del célebre título Dying Light. Apostando de nuevo por la acción y la aventura en primera persona, añadiendo parkour y saltos imposibles a su propuesta de tiroteos y combate en primera persona, Dying Light 2 nos trasladará a un mundo en el que ser el humano sobrevive como puede a la amenaza de los no muertos. Construyendo a grandes alturas, encarnaremos a un personaje que tomará decisiones, sobrevivirá a los achaques de las criaturas y se opondrá a los mercenarios y enemigos humanos.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 56,
+    "nombre": "Marvel's Midnight Suns",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/midnight-suns.jpg",
+    "precio": 29690,
+    "genero": "Estrategia",
+    "descripcion": "Cuando la demoníaca Lilith y su temible horda se unen a los malvados ejércitos de Hydra, toca desatar el lado oscuro de Marvel. Como Hunter, tu misión es liderar un equipo de experimentados Superhéroes y peligrosos guerreros sobrenaturales hacia la victoria. ¿Podrán leyendas como Doctor Strange, Iron Man y Blade dejar a un lado sus diferencias ante una creciente amenaza apocalíptica? Si quieres salvar el mundo, tendrás que forjar alianzas y liderar al equipo a la batalla como los legendarios Midnight Suns. Con una serie de personajes y habilidades mejorables que te permitirán construir tu versión única de Hunter, elegirás cómo enviar al ejército de Lilith de vuelta al inframundo.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 57,
+    "nombre": "Disco Elysium",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/disco-elysium.jpg",
+    "precio": 8000,
+    "genero": "RPG",
+    "descripcion": "Disco Elysium es un juego de rol y mundo abierto, desarrollado por Robert Kurvitz del estudio ZA / UM, que invita a los jugadores a interpretar a un detective y proceder con sus investigaciones. Disco Elysium se describe como un juego de rol de mundo abierto, donde los jugadores encarnan a un detective que tiene a su disposición toda una gama de diferentes habilidades. El objetivo del juego es investigar los diferentes sucesos que tienen lugar en la ciudad del juego, Revachol, interrogando a diferentes personajes, arruinando asesinatos y... aceptando sobornos si es que la ocasión lo precisa. De esta forma, los jugadores podrán convertirse en todo un héroe... o en un completo desastre.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 58,
+    "nombre": "Minecraft Dungeons",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/minecraft-dungeons.jpg",
+    "precio": 5600,
+    "genero": "Estrategia",
+    "descripcion": "Minecraft Dungeons es un videojuego action RPG firmado por Mojang que intenta alejarse del concepto clásico de Minecraft en lo jugable, pero sin olvidar su estética. En este título para consolas y PC, el grupo de aventureros tendrá que enfrentarse a hordas de enemigos en diferentes ubicaciones de corte fantástico.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 59,
+    "nombre": "Hades",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/hades.jpg",
+    "precio": 5420,
+    "genero": "RPG",
+    "descripcion": "En Hades, un hack and slash con toques de juego de rol roguelike para consolas y PC desarrollado por Supergiant Games, nos ponemos en la piel del Príncipe Inmortal del Inframundo, un ser divino que contará con los poderes y las armas míticas del Olimpo para conseguir el objetivo de liberarse de las garras del dios de los muertos. Las mecánicas roguelike se combinan aquí con la exploración de mazmorras y la progresión del personaje, que se va haciendo más fuerte y va descubriendo detalles de la trama en cada intento de fuga.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 60,
+    "nombre": "Dead Cells",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/dead-cells.png",
+    "precio": 5699,
+    "genero": "RPG",
+    "descripcion": "Dead Cells es un videojuego roguelike desarrollado por Motion Twins que une varios elementos habituales en distintos géneros de videojuegos bajo una mecánica conjunta muy exigente, apostando por los clásicos ingredientes de los 'metroidvanias' en 2D. Desarrollado para Nintendo Switch, Xbox One, PS4 y PC, se trata de un videojuego que siempre presentará diversión y partidas distintas.",
+    "lanzamiento": 2018
+  },
+  {
+    "id": 61,
+    "nombre": "Blasphemous",
+    "plataforma": "PC",
+    "imagen": "/public/stock/pc/blasphemous.jpg",
+    "precio": 3599,
+    "genero": "RPG",
+    "descripcion": "Blasphemous es un videojuego de acción, rol y plataformas no lineal en dos dimensiones desarrollado por The Game Kitchen, un estudio español de programación. Apoyándose en un mundo oscuro, extraño y retorcido con influencias del folclore español y la Semana Santa de Sevilla, nos presentan una propuesta de fantasía medieval clásica original y llamativa en base al pixel art y destinada a consolas como Xbox One, PS4, Nintendo Switch y plataformas como PC.",
+    "lanzamiento": 2019
+  },
+  {
+    "id": 62,
+    "nombre": "Hogwarts Legacy",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/hogwarts-legacy.jpg",
+    "precio": 32499,
+    "genero": "Aventura",
+    "descripcion": "Hogwarts Legacy es un videojuego de rol y aventuras en tercera persona desarrollado por Warner Bros. Games y Avalanche para consolas y PC. El título nos traslada al universo de Harry Potter a través de una experiencia inmersiva de mundo abierto ambientada a finales del siglo XIX, invitándonos a explorar y descubrir bestias fantásticas, personalizar nuestro personaje y elaborar pociones, dominar el lanzamiento de hechizos y desentrañar qué misterios se ocultan en Hogwarts.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 63,
+    "nombre": "God of War: Ragnarok",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/ragnarok.jpg",
+    "precio": 30999,
+    "genero": "Acción",
+    "descripcion": "God of War: Ragnarok para PlayStation 5 es la secuela de God of War, el reinicio y a la vez secuela de los anteriores God of War para consolas PlayStation. Desarrollado por el prestigioso estudio Sony Santa Monica y con la dirección de Cory Barlog, encontraremos una nueva historia en la que Kratos deberá enfrentarse a diversos enemigos de inspiración nórdica. Explorando los mitos del Ragnarok, el apocalipsis que todo lo devorará según esta tradición del norte, la secuela se espera que llegue en 2021.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 64,
+    "nombre": "Elden Ring",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/elden-ring.jpg",
+    "precio": 32178,
+    "genero": "Acción",
+    "descripcion": " Elden Ring es el nuevo videojuego de FromSoftware, creadores de Dark Souls, Sekiro o Bloodborne. Se trata del nuevo título de acción y rol para un jugador ideado por Hidetaka Miyazaki, que en esta ocasión, estrenará un mundo abierto más grande y ambicioso. Su argumento y mitología están firmados por George R.R. Martin, autor de Canción de hielo y fuego.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 65,
+    "nombre": "Horizon Forbidden West",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/horizon-2.jpg",
+    "precio": 17599,
+    "genero": "Mundo Abierto",
+    "descripcion": "Horizon 2: Forbbiden West es la segunda parte de Horizon: Zero Dawn, el videojuego de acción en tercera persona y mundo abierto de Guerrilla Games para PlayStation 5 en exclusiva. Auspiciado por Sony, y como una de las nuevas sagas que han demostrado su poder y presencia en la sobremesa, nos narrará una épica historia de ciencia ficción postapocalíptica en la que la humanidad intenta sobrevivir tras la aparición de una serie de máquinas y robots que han sustituido a los seres vivos como especie dominante en la Tierra.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 66,
+    "nombre": "FIFA 23",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/fifa-23.jpg",
+    "precio": 22499,
+    "genero": "Deportes",
+    "descripcion": "Vive la emoción del mayor torneo futbolístico con EA SPORTS FIFA 23 y la actualización de la FIFA World Cup masculina. EA SPORTS FIFA 23 lleva el juego del mundo al campo, con la tecnología HyperMotion2 que ofrece una experiencia de juego aún más realista, tanto la FIFA World Cup masculina como la femenina, la incorporación de equipos femeninos, funciones de juego cruzado y mucho más. Disfruta de una autenticidad única con más de 19 000 jugadores, más de 700 equipos, 100 estadios y más de 30 ligas en FIFA 23.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 67,
+    "nombre": "Resident Evil 8: Village",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/residentevil-8.jpg",
+    "precio": 18334,
+    "genero": "Terror",
+    "descripcion": "Resident Evil 8: Village es la octava entrega de Resident Evil, la saga de survival horror de Capcom que a lo largo de los años nos ha llevado a luchar contra zombis, mutantes y otros seres sobrenaturales. Resident Evil 8: Village, que llegará a PlayStation 5, Xbox Series X y PC nos devuelve a la primera persona como ya sucedió en la séptima parte de la serie y nos llevará a una aldea maldita aislada en un clima hostil y frío, así como asediada por extrañas criaturas que hace la vida imposible a los habitantes.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 68,
+    "nombre": "Octopath Traveler II",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/octopath-traveler.jpg",
+    "precio": 28200,
+    "genero": "RPG",
+    "descripcion": "Octopath Traveler 2 es la mejor cara de esa Square Enix que sabe regresar a sus propios orígenes sin quedarse atascada en el factor nostalgia. La que no tropieza al plantear, a veces con descaro y otras con sutileza, esos clichés que tanto nos gustan. La que acierta de lleno a la hora de zambullirnos en batallas por turnos sin perder la perspectiva sobre lo que es verdaderamente esencial: sus personajes e historias deben tener un calado especial y distintivo en el jugador. Algo que se manifiesta desde el primer al último minuto.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 69,
+    "nombre": "The Quarry",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/quarry.jpg",
+    "precio": 29999,
+    "genero": "Aventura",
+    "descripcion": "El sol se pone en el último día del campamento y los monitores de Hackett's Quarry lo celebran con una fiesta. Pero las cosas se tuercen rápidamente. Perseguidos por lugareños ensangrentados y algo mucho más siniestro, la fiesta se convierte en una noche de puro terror. Juega como cada uno de los nueve monitores del campamento en un relato cinematográfico en el que cada decisión da forma a tu historia.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 70,
+    "nombre": "Returnal",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/returnal.jpg",
+    "precio": 14999,
+    "genero": "Aventura",
+    "descripcion": "Se trata de un título diferente a todos los anteriores del estudio, que había sido videojuegos twin stick shooters. En esta ocasión, sus creadores han apostado por ofrecernos una aventura en tercera persona de ciencia ficción con toques de terror, en la que una mujer parece revivir una y otra vez una serie de traumáticas experiencias en un planeta lleno de criaturas surgidas de la más retorcidas de las pesadillas. Hablamos del juego más ambicioso del equipo, un shooter en tercera persona de gran presupuesto.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 71,
+    "nombre": "Spider-Man: Miles Morales",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/spiderman-miles.jpg",
+    "precio": 24999,
+    "genero": "Mundo Abierto",
+    "descripcion": "Spider-Man: Miles Morales es el nuevo juego de acción y aventura en mundo abierto de Insomniac Games para PlayStation 5, que cuenta como título independiente de Marvel's Spider-Man para PlayStation 4 aunque ofrece su misma fórmula jugable. De esta forma, encarnando a Morales y no a Peter Parker, viajaremos por una ciudad de Nueva York mejor recreada y detallada, combatiendo el crimen y luchando contra los habituales villanos de los cómics de Marvel.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 72,
+    "nombre": "Call of Duty: Modern Warfare 2 (2022)",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/modern-warfare.jpg",
+    "precio": 33900,
+    "genero": "Shooter",
+    "descripcion": "En Call of Duty: Modern Warfare II, los jugadores se verán inmersos en un conflicto a escala global sin precedentes que incluye el regreso de Operadores icónicos de la fuerza operativa 141. Desde operaciones tácticas de infiltración a pequeña escala hasta misiones altamente secretas, los jugadores se desplegarán con amigos en una experiencia inmersiva. Incluye una campaña mundial de un jugador, un combate Multijugador envolvente y un modo de juego evolucionado de Operaciones Especiales tácticas y cooperativas.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 73,
+    "nombre": "Crisis Core -Final Fantasy VII- Reunion",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/fantasy-crisis.jpg",
+    "precio": 26700,
+    "genero": "RPG",
+    "descripcion": "Zack Fair es el alma de CRISIS CORE 'FINAL FANTASY VII' REUNION. El espejo en el que se miraba el joven que acabó salvando el mundo. El compañero respetado de héroes de leyenda. El amor de la chica que tenía en sus manos el destino del planeta. La épica historia en la que cedió sus sueños de honor y gloria a Cloud se narra ahora de forma completa en una obra que va más allá de una puesta al día gráfica.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 74,
+    "nombre": "Gotham Knights",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/gotham-knights.jpg",
+    "precio": 27200,
+    "genero": "Aventura",
+    "descripcion": "Gotham Knights es un videojuego de acción y beat'em up basado en el universo de Batman en el que seguiremos los pasos del murciélago como uno de sus múltiples aliados y socios luego de que el héroe de la ciudad muera. Combatiendo al crimen organizado y los supervillanos, este título desarrollado por Warner Bros. Montreal nos invitará a encarnar a Batgirl, Robin, Red Hood y Nightwing y tendrá énfasis en el cooperativo a través de una propuesta de mundo abierto para consolas como PS5, Xbox Series X/S, PS4, Xbox One y PC.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 75,
+    "nombre": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/gta-trilogy.jpg",
+    "precio": 25000,
+    "genero": "Mundo Abierto",
+    "descripcion": "Tres ciudades icónicas, tres historias épicas. Juega a los clásicos de la trilogía original de Grand Theft Auto que definieron el género: Grand Theft Auto III, Grand Theft Auto: Vice City y Grand Theft Auto: San Andreas, actualizados para una nueva generación con mejoras a todos los niveles, como una deslumbrante nueva iluminación, entornos perfeccionados, texturas de alta resolución, mayor distancia de dibujado, controles y apuntado al estilo de Grand Theft Auto V, y muchas cosas más que harán que estos mundos tan queridos cobren vida con niveles de detalle inéditos.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 76,
+    "nombre": "Gran Turismo 7",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/gran-turismo.jpg",
+    "precio": 20999,
+    "genero": "Carreras",
+    "descripcion": "Gran Turismo 7 es la séptima entrega de la veterana saga de conducción y simulación de Polyphony Digital para consolas PlayStation. En exclusiva para PlayStation 5, la nueva entrega del videojuego de coches tendrá mejoras audiovisuales inimaginables en la licencia, haciendo especial hincapié en el uso del ray tracing en la iluminación y la recreación de modelados de vehículos más complejos.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 77,
+    "nombre": "Sonic Frontiers",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/sonic-frontiers.jpg",
+    "precio": 26100,
+    "genero": "Acción",
+    "descripcion": "Dos mundos chocan en la nueva aventura de Sonic the Hedgehog. Al ir en busca de las Chaos Emeralds perdidas, Sonic llega a una antigua isla repleta de criaturas un tanto extrañas. Lucha contra hordas de poderosos enemigos mientras exploras un mundo impresionante lleno de acción, aventura y misterios. Alcanza nuevas alturas y experimenta la emoción y la libertad a todo ritmo en las zonas abiertas de las cinco enormes Starfall Islands. Disfruta de la aventura y aprovecha el poder de los ancestros para detener a estos nuevos y misteriosos enemigos.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 78,
+    "nombre": "Call of Duty: Warzone 2.0",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/warzone.jpeg",
+    "precio": 33900,
+    "genero": "Shooter",
+    "descripcion": "Call of Duty: Warzone 2.0 es un battle royale gratuito que trae consigo un campo de batalla totalmente renovado. Ofrece armas y vehículos actualizados, junto con tácticas de combate cuerpo a cuerpo o de largo alcance. El objetivo del juego es sobrevivir y ser el último jugador en pie, aniquilando a tus oponentes en el proceso.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 79,
+    "nombre": "Demon's Souls Remake",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/demons-souls.jpg",
+    "precio": 17999,
+    "genero": "RPG",
+    "descripcion": "Demon's Souls Remake es la puesta al día del clásico videojuego de rol y acción en tercera persona de FromSoftware para PlayStation 5. Desarrollado por Bluepoint Games se trata de una ambiciosa actualización del título que inició el fenómeno Souls, que a posteriori sería seguido por Dark Souls y Bloodborne. El título, que se considera un clásico moderno y es la segunda colaboración entre Bluepoint y Japan Studio tras Shadow of the Colossus Remake, aprovechará las bondades técnicas del rompedor e innovador hardware de la nueva sobremesa de Sony.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 80,
+    "nombre": "Final Fantasy XVI",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/fantasy-xvi.jpeg",
+    "precio": 33000,
+    "genero": "JRPG",
+    "descripcion": "Final Fantasy XVI es la nueva entrega de la saga de videojuegos de rol de Square Enix para PS5, que en esta ocasión, nos invita a disfrutar de una ambientación puramente medieval, trasladándonos a un mundo devastado por la guerra entre diversas potencias y por una misteriosa plaga. Estamos ante un juego de rol y acción para un jugador, en el que encarnaremos a un espadachín que tiene una importante misión.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 81,
+    "nombre": "Wo Long: Fallen Dynasty",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/fallen-dynasty.jpg",
+    "precio": 37499,
+    "genero": "Aventura",
+    "descripcion": "Wo Long: Fallen Dynasty es un juego lleno de acción centrado en un miliciano sin nombre que lucha para sobrevivir en una versión de fantasía oscura de la última época de la dinastía Han en la que los demonios asolan los Tres Reinos. Los jugadores deberán enfrentarse a monstruos letales y a soldados enemigos mediante técnicas de esgrima basadas en las artes marciales chinas e intentar sobrevivir contra todo pronóstico despertando su poder interior.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 82,
+    "nombre": "Like a Dragon: Ishin!",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/dragon-ishin.jpg",
+    "precio": 44999,
+    "genero": "RPG",
+    "descripcion": "El Kioto de la década de 1860 está plagado de desigualdades generalizadas, y un samurái cambiará el curso de la historia en su búsqueda de la justicia. Coge la espada de Sakamoto Ryoma y aventúrate en Kioto para encontrar al asesino de tu padre, exculparte de un asesinato y restaurar tu honor. Al hacerlo, pondrás fin a la era samurái y cambiarás para siempre el futuro de Japón. Desenvaina tu espada, carga tu revólver y únete a la revolución en esta intensa aventura histórica de los creadores de la saga Yakuza.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 83,
+    "nombre": "Forspoken",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/forspoken.jpg",
+    "precio": 26050,
+    "genero": "Aventura",
+    "descripcion": "Forspoken, anteriormente conocido como Project Athia, es el nuevo videojuego de acción y rol de Square Enix para PS5 y PC cuya protagonista deberá explorar un mundo repleto de naturaleza y grandes monstruos, aprovechándose de su agilidad, un aspecto que le permite saltar por grandes acantilados y capacidad para poder para controlar la naturaleza. Desarrollado en Luminous Engine, aprovechará las características técnicas de PS5.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 84,
+    "nombre": "GhostWire: Tokyo",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/ghostwire-tokyo.jpg",
+    "precio": 26999,
+    "genero": "Acción",
+    "descripcion": "GhostWire: Tokyo es un videojuego de acción, disparos y misterio ambientado en la capital de Japón, Tokio. Pensado e principio para consolas y PC, su ambientación pretende trasladarnos a un mundo paranormal y extraño, en el que los seres humanos están desapareciendo en especiales circunstancias. Diseñado por el equipo de Shinji Mikami e Ikuri Nakamura -que ha dejado el desarrollo-, se trata de uno de los grandes proyectos del videojuego japonés para los próximos años.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 85,
+    "nombre": "A Plague Tale: Requiem",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/plague-tale.jpg",
+    "precio": 31230,
+    "genero": "Acción",
+    "descripcion": "Más allá del mar, una isla llama… Vive una aventura desgarradora por un mundo asombroso y despiadado, retorcido por las fuerzas sobrenaturales en A Plague Tale: Requiem. Tras huir de su hogar devastado, Amicia y Hugo viajan al sur, hacia nuevas regiones y bulliciosas ciudades, para comenzar de nuevo y controlar la maldición.",
+    "lanzamiento": 2022
+  },
+  {
+    "id": 86,
+    "nombre": "Alan Wake Remastered",
+    "plataforma": "PS5",
+    "imagen": "/public/stock/ps5/alan-wake.png",
+    "precio": 18999,
+    "genero": "Shooter",
+    "descripcion": "Versión remasterizada de Alan Wake, el clásico de Remedy Entertainment. Esta versión con gráficos mejorados nos cuenta la historia del afligido escritor Alan Wake, quien se embarca en la desesperada búsqueda de su mujer desaparecida, Alice. Tras su misteriosa desaparición en el pueblo de Bright Falls, en el Noroeste del Pacífico, Alan descubre las páginas de una historia de terror que supuestamente ha escrito, pero de la que no guarda ningún recuerdo.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 87,
+    "nombre": "Far Cry 6",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/far-cry.jpg",
+    "precio": 24799,
+    "genero": "Acción",
+    "descripcion": "Far Cry 6 es un nuevo videojuego de la saga de acción en primera persona de Ubisoft. En el título viajaremos a Yara, un paraíso tropical ficticio gobernado por un tirano: Anton Castillo, a quien pone cara y voz Giancarlo Esposito. A los mandos controlaremos a Dani Rojas, un ciudadano de esta país que se une a una guerrilla que intenta liberar la nación de la tiranía de Castillo. En Far Cry 6 los jugadores volverán a explorar un exuberante mundo abierto, repleto de vegetación, ciudades, playas, selvas y muchos más lugares que explorar más allá de Esperanza, la enorme capital de Yara. La variedad de escenarios será amplia, ya que este será el Far Cry más grande de toda la saga.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 88,
+    "nombre": "Battlefield 2042",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/battlefield-2042.jpg",
+    "precio": 22399,
+    "genero": "Shooter",
+    "descripcion": "Battlefield 2042 es la nueva entrega de la saga de acción en primera persona que llegará a PC, PS5, PS4, Xbox One y Xbox Series X/S. Hablamos de un título totalmente multijugador con tres experiencias diferentes entre las que destaca la Guerra Total con partidas con hasta 128 jugadores (en PC y en la actual generación) en los mapas más grandes vistos hasta ahora en la saga con un montón de factores que pueden afectar al campo de batalla. Ambientado en el futuro cercano, nos trasladará a un escenario en el que el cambio climático ha hecho estragos.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 89,
+    "nombre": "Scarlet Nexus",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/scarlet-nexus.jpg",
+    "precio": 25000,
+    "genero": "Aventura",
+    "descripcion": "Scarlet Nexus es un juego de rol y acción diseñado por Bandai Namco enmarcado en el género del hack and slash en el que tomaremos el control de Yuito Sumeragi, un guerrero implacable habitante de un futuro distópico en el que la humanidad ha sucumbido a la invasión de unas criatura llamadas 'Alter'; estos seres abstractos parecen prácticamente invulnerables, pero el protagonista podrá enfrentarse a ello gracias a su psicoquinesis, una poderosa habilidad mental con la que puede mover objetos, armas e incluso enemigos.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 90,
+    "nombre": "Minecraft Legends",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/minecraft-legends.jpg",
+    "precio": 6399,
+    "genero": "Estrategia",
+    "descripcion": "Es el juego de acción y estrategia de Mojang Studios y Blackbird Interactive. El juego tendrá tanto PvP como un modo de historia cooperativa. Cuando cargues en una partida PvP, te enfrentarás a un mapa completamente nuevo cada vez para que las batallas se sientan frescas e interesantes. Un partido tendrá cuatro jugadores en cada lado y gracias al juego cruzado, encontrar un partido será la parte menos difícil. El verdadero desafío es que los jugadores tengan que trabajar juntos para reunir recursos y construir una base sólida para luchar contra los invasores. Aunque el título se centra en la supervivencia, aún podrás dejar volar tu creatividad.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 91,
+    "nombre": "Immortals Fenyx Rising",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/immortals.jpg",
+    "precio": 25000,
+    "genero": "Mundo Abierto",
+    "descripcion": "Gods and Monsters es un videojuego de acción y aventura de mundo abierto que nos narrará las andanzas de un olvidado héroe que tendrá que salvar a los dioses de la mitología griega. Para ello, tendremos que demostrar nuestro heroísmo enfrentándonos a peligrosas criaturas mitológicas en un gigantesco escenario de fantasía repleto de mazmorras y duras pruebas a superar que podremos explorar con total libertad.",
+    "lanzamiento": 2020
+  },
+  {
+    "id": 92,
+    "nombre": "Hi-Fi Rush",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/hifi-rush.jpg",
+    "precio": 18700,
+    "genero": "Aventura",
+    "descripcion": "Siente el ritmo en la piel de un aspirante a estrella del rock, Chai, y su variopinto equipo de aliados, que se rebelan contra una malvada megacorporación de implantes robóticos en atronadores combates de ritmo. Desarrollado por Tango Gameworks, el estudio que creó The Evil Within y Ghostwire: Tokyo, Hi-Fi RUSH es un juego de acción en el que los personajes, el mundo y el combate se sincronizan con estilo a la música. Enfréntate a ejércitos de drones corporativos en combates amplificados por el ritmo. Sincroniza tus movimientos para conseguir llamativos golpes al compás, contundentes habilidades especiales y hasta ataques combinados con tus aliados.",
+    "lanzamiento": 2023
+  },
+  {
+    "id": 93,
+    "nombre": "Tales of Arise",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/tales-arise.jpg",
+    "precio": 24207,
+    "genero": "RPG",
+    "descripcion": "Tales of Arise es el nuevo videojuego de la saga Tales of de Bandai Namco. Se trata de una secuela muy ambiciosa, que pretende marcar un antes y un después dentro de la serie de títulos de rol. Estrena sistema de combate dinámico, mantiene las señas de identidad de otros juegos anteriores y da un salto técnico enorme al usar una nueva dirección artística y el motor gráfico Unreal Engine 4. Está producido por Yuusuke Tomizaka y cuenta con un equipo de veteranos en Tales of",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 94,
+    "nombre": "Halo Infinite",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/halo.jpg",
+    "precio": 33919,
+    "genero": "Shooter",
+    "descripcion": "Halo Infinite es el nuevo capítulo dentro de la saga Halo. Secuela de Halo 5, en 343 Industries han planteado este nuevo juego de acción en primera persona como un punto de inflexión dentro de la serie, reiniciando apartados artísticos o jugables. En Halo Infinite se ha estrenado el motor gráfico Slipspace, más potente y capaz de presentar grandes escenarios, una iluminación realista y gráficos en 4K.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 95,
+    "nombre": "Forza Horizon 5",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/forza-horizon.webp",
+    "precio": 20000,
+    "genero": "Carreras",
+    "descripcion": "Forza Horizon 5 es la nueva entrega de la saga de conducción en mundo abierto de Microsoft. El título, que llegará a Xbox One, Xbox Series X/S y PC, se ambientará en México y contará con un sistema de condiciones meteorológicas que incluirá desde leves tormentas de polvo, hasta tormentas tropicales más fuertes y otro tipo de eventos climáticos grandes y masivos. Además de la nueva información aportada a nivel de jugabilidad, los modos The Eliminator y Super 7 estarán de regreso. Forza Horizon 5 también contará con un conjunto de herramientas que permitirán crear nuestras propias carreras, modos de juego y experiencias. Todo será personalizable, hasta las reglas fundamentales, convirtiendo esta nueva entrega de la saga en la más divertida, accesible y variada.",
+    "lanzamiento": 2021
+  },
+  {
+    "id": 96,
+    "nombre": "Life is Strange: True Colors",
+    "plataforma": "Xbox Series X",
+    "imagen": "/public/stock/xbox/true-colors.jpg",
+    "precio": 23000,
+    "genero": "Aventura",
+    "descripcion": "Alex Chen esconde su maldición: el poder de la empatía, la capacidad de absorber los sentimientos intensos de los demás. Tras la muerte de su hermano, supuestamente accidental, Alex usa su poder para desentrañar la verdad. Cambia el destino y cambia vidas con el poder de la empatía.",
+    "lanzamiento": 2021
+  }
+]

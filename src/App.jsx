@@ -1,18 +1,15 @@
+import NavMenu from "./components/NavMenu/NavMenu";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import Navbar from "./components/Navbar/Navbar";
+import ItemListContainer from "./components/ItemlistContainer/ItemListContainer";
 
-const App = () => {
+function App() {
   return (
-      <><Navbar />
-      <ItemListContainer greeting ='Saludos te desea'/> </>
-      /*  
-      <div>
-        <Navbar />
-        <ItemListContainer greeting ='Saludos'/>
-      </div> 
-    */
+    <>
+      <NavMenu />
+      <ItemListContainer greeting="Saludos te desea"/>
+    </>
   );
-};
+}
 
 export default App;

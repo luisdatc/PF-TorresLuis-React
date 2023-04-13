@@ -1,9 +1,17 @@
 .greeting {
-  text-align: center;
-  padding: 2rem 0;
-  text-transform: uppercase;
-  text-decoration: underline dotted rgba(10, 224, 38, 0.897);
-&-logo{
-    padding: 1rem 0;
-}
-}
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    text-decoration: underline dotted rgba(10, 224, 38, 0.897);
+  &-logo{
+      padding: 1rem 0;
+  }
+  }
+  
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
