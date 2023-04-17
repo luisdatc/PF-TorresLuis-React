@@ -16,9 +16,9 @@ const NavMenu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#features">Inicio</Nav.Link>
-            <Nav.Link href="#pricing">Productos</Nav.Link>
-            <Nav.Link href="#pricing">Contactanos</Nav.Link>
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#productos">Productos</Nav.Link>
+            <Nav.Link href="#contacto">Contactanos</Nav.Link>
           </Nav>
           <CartWidget />
           <Nav>

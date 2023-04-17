@@ -222,7 +222,7 @@
   },
   {
     "id": 23,
-    "nombre": "Crash Bandicoot 4",
+    "nombre": "Crash Bandicoot 4: It's About Time",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/crash.jpg",
     "precio": 21592,
@@ -242,7 +242,7 @@
   },
   {
     "id": 25,
-    "nombre": "TLoZ: Breath of the Wild",
+    "nombre": "The Legend of Zelda: Breath of the Wild",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/breath-of-wild.jpg",
     "precio": 29599,
@@ -342,7 +342,7 @@
   },
   {
     "id": 35,
-    "nombre": "TLoZ: Tears of the Kingdom",
+    "nombre": "The Legend of Zelda: Tears of the Kingdom",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/tears-kingdom.jpg",
     "precio": 25000,
@@ -372,7 +372,7 @@
   },
   {
     "id": 38,
-    "nombre": "Animal Crossing",
+    "nombre": "Animal Crossing: New Horizons",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/animal-crossing.jpg",
     "precio": 25899,
@@ -392,7 +392,7 @@
   },
   {
     "id": 40,
-    "nombre": "Super Mario 3D World",
+    "nombre": "Super Mario 3D World + Bowser's Fury",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-3d.jpeg",
     "precio": 27610,
@@ -442,7 +442,7 @@
   },
   {
     "id": 45,
-    "nombre": "TLoZ: Skyward Sword HD",
+    "nombre": "The legend of Zelda: Skyward Sword HD",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/skyward.jpg",
     "precio": 31000,
@@ -473,7 +473,7 @@
   },
   {
     "id": 48,
-    "nombre": "Kirby's Return to Dream Land",
+    "nombre": "Kirby's Return to Dream Land Deluxe",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/kirby.jpg",
     "precio": 29999,
