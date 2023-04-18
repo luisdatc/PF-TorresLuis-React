@@ -1,3 +1,10 @@
+import {
+  FaInstagram,
+  FaWhatsapp,
+  FaFacebookSquare,
+  FaEnvelope, FaMapMarker
+} from "react-icons/fa";
+
 import "./Footer.scss";
 
 const Footer = () => {
@@ -7,7 +14,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
             <h3>Navegaci&oacute;n</h3>
-            <div>
+            <div className="row">
               <a href="#home" className="footer-link">
                 Home
               </a>
@@ -21,34 +28,46 @@ const Footer = () => {
           </div>
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
             <h3>Formas de Envio</h3>
-            <div>
-              <img
-                src="/public/logo-oca.png"
-                alt="logo Oca"
-                className="img-fluid"
-              />
-              <img
-                src="/public/correo-argentino.png"
-                alt="Logo Correo Argentino"
-                className="img-fluid"
-              />
-              <img
-                src="/public/andreani-logo.png"
-                alt="Logo Andreani"
-                className="img-fluid"
-              />
+            <div className="footer-logos">
+              <div className="row prueba">
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <img
+                    src="/public/logo-oca.png"
+                    alt="logo Oca"
+                    className="img-fluid footer-logos-envio"
+                  />
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <img
+                    src="/public/correo-argentino.png"
+                    alt="Logo Correo Argentino"
+                    className="img-fluid footer-logos-envio"
+                  />
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <img
+                    src="/public/andreani-logo.png"
+                    alt="Logo Andreani"
+                    className="img-fluid footer-logos-envio"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
             <h3>Contacto</h3>
-            <div></div>
+            <div>
+              <FaWhatsapp />
+              <FaEnvelope />
+              <FaMapMarker/>
+            </div>
           </div>
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
             <h3>Redes Sociales</h3>
             <div>
               <h4>Te invitamos a seguirnos en nuestras redes!</h4>
-              <a href=""></a>
-              <a href=""></a>
+              <FaInstagram />
+              <FaFacebookSquare />
             </div>
           </div>
         </div>
