@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "nombre": "Resident Evil 2 Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil2.jpg",
@@ -10,7 +10,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 2,
+    "id": "2",
     "nombre": "The Last of Us Part II",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/tlofp2.png",
@@ -20,7 +20,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 3,
+    "id": "3",
     "nombre": "God of War",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/gow.webp",
@@ -30,7 +30,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 4,
+    "id": "4",
     "nombre": "Assassin's Creed Valhalla",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/valhalla.jpg",
@@ -40,7 +40,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 5,
+    "id": "5",
     "nombre": "Resident Evil 3 Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil3.jpg",
@@ -50,7 +50,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 6,
+    "id": "6",
     "nombre": "Ghost of Tsushima",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/tsushima.jpg",
@@ -60,7 +60,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 7,
+    "id": "7",
     "nombre": "Red Dead Redemption",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/redemption2.jpg",
@@ -70,7 +70,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 8,
+    "id": "8",
     "nombre": "Dragon Ball Z: Kakarot",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/dragonball.jpg",
@@ -80,7 +80,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 9,
+    "id": "9",
     "nombre": "Resident Evil 7: Biohazard",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil7.jpg",
@@ -90,7 +90,7 @@
     "lanzamiento": 2017
   },
   {
-    "id": 10,
+    "id": "10",
     "nombre": "Sekiro: Shadows Die Twice",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/sekiro.webp",
@@ -100,7 +100,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 11,
+    "id": "11",
     "nombre": "The Last of Uf Remastered",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/tlofp1.jpg",
@@ -110,7 +110,7 @@
     "lanzamiento": 2014
   },
   {
-    "id": 12,
+    "id": "12",
     "nombre": "Assassin's Creed Odyssey",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/odyssey.jpg",
@@ -120,7 +120,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 13,
+    "id": "13",
     "nombre": "Spider-Man",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/spiderman.webp",
@@ -130,7 +130,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 14,
+    "id": "14",
     "nombre": "Horizon: Zero Dawn",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/horizon1.jpg",
@@ -141,7 +141,7 @@
   },
 
   {
-    "id": 15,
+    "id": "15",
     "nombre": "Final Fantasy VII Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/fantasy-vii.jpg",
@@ -151,7 +151,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 16,
+    "id": "16",
     "nombre": "Uncharted 4: A Thiefts End",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/uncharted.jpg",
@@ -161,7 +161,7 @@
     "lanzamiento": 2016
   },
   {
-    "id": 17,
+    "id": "17",
     "nombre": "Mortal Kombat 11",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/mortal.jpg",
@@ -171,7 +171,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 18,
+    "id": "18",
     "nombre": "Batman: Arkham Knight",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/batman.jpg",
@@ -181,7 +181,7 @@
     "lanzamiento": 2015
   },
   {
-    "id": 19,
+    "id": "19",
     "nombre": "Call of Duty: Black Ops III",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/cod-black.jpg",
@@ -191,7 +191,7 @@
     "lanzamiento": 2015
   },
   {
-    "id": 20,
+    "id": "20",
     "nombre": "Final Fantasy XV",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/fantaxy-xv.jpg",
@@ -201,7 +201,7 @@
     "lanzamiento": 2016
   },
   {
-    "id": 21,
+    "id": "21",
     "nombre": "Digimon World: Next Order",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/digimon.jpg",
@@ -211,7 +211,7 @@
     "lanzamiento": 2017
   },
   {
-    "id": 22,
+    "id": "22",
     "nombre": "The Elder Scrolls V: Skyrim",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/skyrim.jpg",
@@ -221,7 +221,7 @@
     "lanzamiento": 2016
   },
   {
-    "id": 23,
+    "id": "23",
     "nombre": "Crash Bandicoot 4: It's About Time",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/crash.jpg",
@@ -231,7 +231,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 24,
+    "id": "24",
     "nombre": "Marvel's Avengers",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/avengers.jpg",
@@ -241,7 +241,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 25,
+    "id": "25",
     "nombre": "The Legend of Zelda: Breath of the Wild",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/breath-of-wild.jpg",
@@ -251,7 +251,7 @@
     "lanzamiento": 2017
   },
   {
-    "id": 26,
+    "id": "26",
     "nombre": "Metroid Prime Remastered",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/metroid-prime.jpg",
@@ -261,7 +261,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 27,
+    "id": "27",
     "nombre": "Mario Party Superstars",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/superstars.jpg",
@@ -271,7 +271,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 28,
+    "id": "28",
     "nombre": "Super Smash Bros. Ultimate",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/smash-bros.jpg",
@@ -281,7 +281,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 29,
+    "id": "29",
     "nombre": "Super Mario 3D All-Stars",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-allstars.jpg",
@@ -291,7 +291,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 30,
+    "id": "30",
     "nombre": "Mario Kart 8 Deluxe",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-kart.jpg",
@@ -301,7 +301,7 @@
     "lanzamiento": 2017
   },
   {
-    "id": 31,
+    "id": "31",
     "nombre": "Marvel Ultimate Alliance 3",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/ultimate-alliance.jpg",
@@ -311,7 +311,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 32,
+    "id": "32",
     "nombre": "Shin Megami Tensei V",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/megami-tensei.png",
@@ -321,7 +321,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 33,
+    "id": "33",
     "nombre": "Pikmin 3 Deluxe",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/pikmin.jpg",
@@ -331,7 +331,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 34,
+    "id": "34",
     "nombre": "Diablo III: Eternal Collection",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diablo3.jpg",
@@ -341,7 +341,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 35,
+    "id": "35",
     "nombre": "The Legend of Zelda: Tears of the Kingdom",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/tears-kingdom.jpg",
@@ -351,7 +351,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 36,
+    "id": "36",
     "nombre": "Monster Hunter Rise",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/monster-hunter.jpg",
@@ -361,7 +361,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 37,
+    "id": "37",
     "nombre": "Luigi's Mansion 3",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mansion3.jpg",
@@ -371,7 +371,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 38,
+    "id": "38",
     "nombre": "Animal Crossing: New Horizons",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/animal-crossing.jpg",
@@ -381,7 +381,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 39,
+    "id": "39",
     "nombre": "Bayonetta 3",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/bayoneta3.jpg",
@@ -391,7 +391,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 40,
+    "id": "40",
     "nombre": "Super Mario 3D World + Bowser's Fury",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-3d.jpeg",
@@ -401,7 +401,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 41,
+    "id": "41",
     "nombre": "Pokemon Violet",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/violet.webp",
@@ -411,7 +411,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 42,
+    "id": "42",
     "nombre": "Pokemon Diamante Brillante",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diamante.png",
@@ -421,7 +421,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 43,
+    "id": "43",
     "nombre": "Super Mario Odissey",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-odyssey.jpg",
@@ -431,7 +431,7 @@
     "lanzamiento": 2017
   },
   {
-    "id": 44,
+    "id": "44",
     "nombre": "Metroid Dread",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/metroid-dread.jpg",
@@ -441,7 +441,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 45,
+    "id": "45",
     "nombre": "The legend of Zelda: Skyward Sword HD",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/skyward.jpg",
@@ -452,7 +452,7 @@
   },
 
   {
-    "id": 46,
+    "id": "46",
     "nombre": "Fire Emblem Engage",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/fire-emblem.jpg",
@@ -462,7 +462,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 47,
+    "id": "47",
     "nombre": "Xenoblade Chronicles 3",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/xenoblade.jpg",
@@ -472,7 +472,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 48,
+    "id": "48",
     "nombre": "Kirby's Return to Dream Land Deluxe",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/kirby.jpg",
@@ -482,7 +482,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 49,
+    "id": "49",
     "nombre": "Atomic Heart",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/atomic-heart.jpg",
@@ -492,7 +492,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 50,
+    "id": "50",
     "nombre": "Sons of the Forest",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/sons-forest.webp",
@@ -502,7 +502,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 51,
+    "id": "51",
     "nombre": "The Callisto Protocol",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/callisto-protocol.jpg",
@@ -512,7 +512,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 52,
+    "id": "52",
     "nombre": "Cyberpunk 2077",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/cyberpunk-2077.jpg",
@@ -522,7 +522,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 53,
+    "id": "53",
     "nombre": "Star Wars Jedi: Fallen Order",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/star-wars.jpg",
@@ -532,7 +532,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 54,
+    "id": "54",
     "nombre": "The Witcher 3: Wild Hunt",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/witcher.jpg",
@@ -542,7 +542,7 @@
     "lanzamiento": 2015
   },
   {
-    "id": 55,
+    "id": "55",
     "nombre": "Dying Light 2",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/dying-light.jpg",
@@ -552,7 +552,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 56,
+    "id": "56",
     "nombre": "Marvel's Midnight Suns",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/midnight-suns.jpg",
@@ -562,7 +562,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 57,
+    "id": "57",
     "nombre": "Disco Elysium",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/disco-elysium.jpg",
@@ -572,7 +572,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 58,
+    "id": "58",
     "nombre": "Minecraft Dungeons",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/minecraft-dungeons.jpg",
@@ -582,7 +582,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 59,
+    "id": "59",
     "nombre": "Hades",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/hades.jpg",
@@ -592,7 +592,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 60,
+    "id": "60",
     "nombre": "Dead Cells",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/dead-cells.png",
@@ -602,7 +602,7 @@
     "lanzamiento": 2018
   },
   {
-    "id": 61,
+    "id": "61",
     "nombre": "Blasphemous",
     "plataforma": "PC",
     "imagen": "/public/stock/pc/blasphemous.jpg",
@@ -612,7 +612,7 @@
     "lanzamiento": 2019
   },
   {
-    "id": 62,
+    "id": "62",
     "nombre": "Hogwarts Legacy",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/hogwarts-legacy.jpg",
@@ -622,7 +622,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 63,
+    "id": "63",
     "nombre": "God of War: Ragnarok",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/ragnarok.jpg",
@@ -632,7 +632,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 64,
+    "id": "64",
     "nombre": "Elden Ring",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/elden-ring.jpg",
@@ -642,7 +642,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 65,
+    "id": "65",
     "nombre": "Horizon Forbidden West",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/horizon-2.jpg",
@@ -652,7 +652,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 66,
+    "id": "66",
     "nombre": "FIFA 23",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fifa-23.jpg",
@@ -662,7 +662,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 67,
+    "id": "67",
     "nombre": "Resident Evil 8: Village",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/residentevil-8.jpg",
@@ -672,7 +672,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 68,
+    "id": "68",
     "nombre": "Octopath Traveler II",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/octopath-traveler.jpg",
@@ -682,7 +682,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 69,
+    "id": "69",
     "nombre": "The Quarry",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/quarry.jpg",
@@ -692,7 +692,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 70,
+    "id": "70",
     "nombre": "Returnal",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/returnal.jpg",
@@ -702,7 +702,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 71,
+    "id": "71",
     "nombre": "Spider-Man: Miles Morales",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/spiderman-miles.jpg",
@@ -712,7 +712,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 72,
+    "id": "72",
     "nombre": "Call of Duty: Modern Warfare 2 (2022)",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/modern-warfare.jpg",
@@ -722,7 +722,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 73,
+    "id": "73",
     "nombre": "Crisis Core -Final Fantasy VII- Reunion",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fantasy-crisis.jpg",
@@ -732,7 +732,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 74,
+    "id": "74",
     "nombre": "Gotham Knights",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/gotham-knights.jpg",
@@ -742,7 +742,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 75,
+    "id": "75",
     "nombre": "Grand Theft Auto: The Trilogy - The Definitive Edition",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/gta-trilogy.jpg",
@@ -752,7 +752,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 76,
+    "id": "76",
     "nombre": "Gran Turismo 7",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/gran-turismo.jpg",
@@ -762,7 +762,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 77,
+    "id": "77",
     "nombre": "Sonic Frontiers",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/sonic-frontiers.jpg",
@@ -772,7 +772,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 78,
+    "id": "78",
     "nombre": "Call of Duty: Warzone 2.0",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/warzone.jpeg",
@@ -782,7 +782,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 79,
+    "id": "79",
     "nombre": "Demon's Souls Remake",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/demons-souls.jpg",
@@ -792,7 +792,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 80,
+    "id": "80",
     "nombre": "Final Fantasy XVI",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fantasy-xvi.jpeg",
@@ -802,7 +802,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 81,
+    "id": "81",
     "nombre": "Wo Long: Fallen Dynasty",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fallen-dynasty.jpg",
@@ -812,7 +812,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 82,
+    "id": "82",
     "nombre": "Like a Dragon: Ishin!",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/dragon-ishin.jpg",
@@ -822,7 +822,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 83,
+    "id": "83",
     "nombre": "Forspoken",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/forspoken.jpg",
@@ -832,7 +832,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 84,
+    "id": "84",
     "nombre": "GhostWire: Tokyo",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/ghostwire-tokyo.jpg",
@@ -842,7 +842,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 85,
+    "id": "85",
     "nombre": "A Plague Tale: Requiem",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/plague-tale.jpg",
@@ -852,7 +852,7 @@
     "lanzamiento": 2022
   },
   {
-    "id": 86,
+    "id": "86",
     "nombre": "Alan Wake Remastered",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/alan-wake.png",
@@ -862,7 +862,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 87,
+    "id": "87",
     "nombre": "Far Cry 6",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/far-cry.jpg",
@@ -872,7 +872,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 88,
+    "id": "88",
     "nombre": "Battlefield 2042",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/battlefield-2042.jpg",
@@ -882,7 +882,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 89,
+    "id": "89",
     "nombre": "Scarlet Nexus",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/scarlet-nexus.jpg",
@@ -892,7 +892,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 90,
+    "id": "90",
     "nombre": "Minecraft Legends",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/minecraft-legends.jpg",
@@ -902,7 +902,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 91,
+    "id": "91",
     "nombre": "Immortals Fenyx Rising",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/immortals.jpg",
@@ -912,7 +912,7 @@
     "lanzamiento": 2020
   },
   {
-    "id": 92,
+    "id": "92",
     "nombre": "Hi-Fi Rush",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/hifi-rush.jpg",
@@ -922,7 +922,7 @@
     "lanzamiento": 2023
   },
   {
-    "id": 93,
+    "id": "93",
     "nombre": "Tales of Arise",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/tales-arise.jpg",
@@ -932,7 +932,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 94,
+    "id": "94",
     "nombre": "Halo Infinite",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/halo.jpg",
@@ -942,7 +942,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 95,
+    "id": "95",
     "nombre": "Forza Horizon 5",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/forza-horizon.png",
@@ -952,7 +952,7 @@
     "lanzamiento": 2021
   },
   {
-    "id": 96,
+    "id": "96",
     "nombre": "Life is Strange: True Colors",
     "plataforma": "Xbox Series X",
     "imagen": "/public/stock/xbox/true-colors.jpg",

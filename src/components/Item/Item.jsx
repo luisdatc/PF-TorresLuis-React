@@ -10,14 +10,9 @@ const Item = ({ id, imagen, nombre, plataforma, precio }) => {
           <span className="badge bg-secondary">{plataforma}</span>
         </h6>
         <p className="card-text">{precio} Ars.</p>
-        <div className="buttons">
-          <button type="button" className="btn btn-primary">
-            Detalles
-          </button>
-          <button type="button" className="btn btn-primary">
-            Comprar
-          </button>
-        </div>
+        <button type="button" className="btn btn-primary">
+          Comprar
+        </button>
       </div>
     </div>
   );

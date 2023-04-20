@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <NavMenu />
       <MainSection />
-      <ShipCardSales />
+
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/detalle" element={<ItemDetailContainer />} />
@@ -23,7 +23,7 @@ function App() {
          */}
       </Routes>
       <ShipCardSales />
-      <Footer></Footer>
+      <Footer />
     </BrowserRouter>
   );
 }

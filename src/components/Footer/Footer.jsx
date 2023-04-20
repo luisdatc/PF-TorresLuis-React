@@ -9,7 +9,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contacto">
       <div className="container-fluid">
         <div className="row">
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
