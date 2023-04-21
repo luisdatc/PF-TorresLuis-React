@@ -5,7 +5,7 @@ const ItemDetailContainer = () => {
   //estado para guardar un producto
   const { pid } = useParams;
 
-  console.log( pid);
+  console.log(pid);
   //useeffect para llamar a la api o json para traer un producto  por id y luego guardar en el estado
 
   return (

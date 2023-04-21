@@ -1,12 +1,9 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavMenu.scss";
-import { Link, NavLink, useParams } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavMenu = () => {
-  
-  const { cid } = useParams;
-
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" bg="light">
       <Container fluid>
@@ -28,11 +25,13 @@ const NavMenu = () => {
               id="navbarScrollingDropdown"
               href="#productos"
             >
-              <NavLink to="/plataforma/PS4">PS4</NavLink>
-              <NavDropdown.Item>PS5</NavDropdown.Item>
-              <NavDropdown.Item>NINTENDO SWITCH</NavDropdown.Item>
-              <NavDropdown.Item>XBOX</NavDropdown.Item>
-              <NavDropdown.Item>PC</NavDropdown.Item>
+              <NavLink to="/plataforma/ps4">PS4</NavLink>
+              <NavLink to="/plataforma/ps5">PS5</NavLink>
+              <NavLink to="/plataforma/nintendo-switch">
+                Nintendo Switch
+              </NavLink>
+              <NavLink to="/plataforma/xbox">Xbox</NavLink>
+              <NavLink to="/plataforma/pc">PC</NavLink>
             </NavDropdown>
             <Nav.Link href="#contacto">Contactanos</Nav.Link>
           </Nav>
@@ -45,5 +44,8 @@ const NavMenu = () => {
     </Navbar>
   );
 };
+
+
+
 
 export default NavMenu;
