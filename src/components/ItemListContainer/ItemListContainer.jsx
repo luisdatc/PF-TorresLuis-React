@@ -16,7 +16,7 @@ const ItemListContainer = () => {
       SetProductos(respParser);
       setTimeout(() => {
         SetIsLoading(false);
-      }, 3000);
+      }, 1000);
     } catch (error) {
       console.log(error);
     }
