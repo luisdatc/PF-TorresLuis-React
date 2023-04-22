@@ -1,15 +1,43 @@
 .card {
   padding: 0;
-   margin: 0.5rem 0; 
- /*   width: 15rem; */
-  &-title {
-/*     font-size: 0.5rem;
- */  }
+  margin: 0.5rem 0;
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+.itemBuyButton {
+  background: #7ed957;
+  border: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 120px;
+  cursor: pointer;
+  transform: skew(-21deg);
+}
+
+.span-button {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.itemBuyButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.itemBuyButton:hover {
+  color: #fff;
+}
+
+.itemBuyButton:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
 }

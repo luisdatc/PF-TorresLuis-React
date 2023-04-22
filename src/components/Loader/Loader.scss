@@ -4,7 +4,8 @@
   height: 64px;
   border-radius: 50%;
   border: 2px solid navy;
-  margin: auto;
+  margin: 2rem auto;
+
   &::after {
     content: "";
     position: absolute;

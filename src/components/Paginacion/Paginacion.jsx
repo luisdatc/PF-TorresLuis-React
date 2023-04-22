@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "./Paginacion.scss";
 
 const Paginacion = ({ pagina, setPagina, maximo }) => {
@@ -18,20 +18,24 @@ const Paginacion = ({ pagina, setPagina, maximo }) => {
   return (
     <div className="pagination">
       <button
-        className="previousPage"
+        className="page"
         onClick={previousPage}
         disabled={pagina === 1 || pagina < 1}
       >
-        Previous
+        <FaArrowLeft className="arrow" />
+        <span>Back</span>
       </button>
-      <input name="page" autoComplete="off" disabled value={input} />
-      <p className="m-0">de {maximo}</p>
+      <div className="input-p">
+        <input name="page" autoComplete="off" disabled value={input} />
+        <p className="m-0">de {maximo}</p>
+      </div>
       <button
-        className="nextPage"
+        className="page"
         onClick={nextPage}
         disabled={pagina === maximo || pagina > maximo}
       >
-        Next
+        <span>Next</span>
+        <FaArrowRight className="arrowR" />
       </button>
     </div>
   );
