@@ -1,0 +1,42 @@
+.footer {
+  margin-top: 1rem;
+  &-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-contacto-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    & p {
+      margin: 0;
+    }
+    &-ws {
+      font-size: 1.5rem;
+      color: #7ed957;
+    }
+    &-mail {
+      font-size: 1.5rem;
+      color: #ff3131;
+    }
+    &-map {
+      font-size: 1.5rem;
+      color: #798283;
+    }
+  }
+  &-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    &-instagram {
+      color: purple;
+    }
+    &-facebook {
+      color: blue;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./Paginacion.scss";
+
 const Paginacion = ({ pagina, setPagina, maximo }) => {
   const [input, setInput] = useState(1);
 
@@ -23,8 +25,12 @@ const Paginacion = ({ pagina, setPagina, maximo }) => {
         Previous
       </button>
       <input name="page" autoComplete="off" disabled value={input} />
-      <p>de {maximo}</p>
-      <button className="nextPage" onClick={nextPage} disabled={pagina === maximo || pagina > maximo}>
+      <p className="m-0">de {maximo}</p>
+      <button
+        className="nextPage"
+        onClick={nextPage}
+        disabled={pagina === maximo || pagina > maximo}
+      >
         Next
       </button>
     </div>

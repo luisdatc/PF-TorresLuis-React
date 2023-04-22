@@ -16,16 +16,16 @@ const ItemDetail = ({ producto }) => {
               </div>
               <div className="col-md-6">
                 <div className="card-body">
-                  <h5 className="card-title">{producto.nombre}</h5>
-                  <span className="badge bg-secondary">
+                  <h5 className="card-title card-detail-name">{producto.nombre}</h5>
+                  <span className="badge bg-success">
                     {producto.plataforma}
                   </span>
-                  <span className="badge bg-secondary">
+                  <span className="badge bg-warning">{producto.genero}</span>
+                  <span className="badge bg-danger">
                     {producto.lanzamiento}
                   </span>
-                  <span className="badge bg-secondary">{producto.genero}</span>
                   <p className="card-text">{producto.descripcion}</p>
-                  <h5 className="card-title">{producto.precio} $Ars</h5>
+                  <h5 className="card-title">Precio: {producto.precio} $ARS</h5>
                 </div>
               </div>
             </div>

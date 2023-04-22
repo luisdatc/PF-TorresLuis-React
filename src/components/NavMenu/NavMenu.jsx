@@ -17,17 +17,24 @@ const NavMenu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <NavLink to="/plataforma/ps4">PS4</NavLink>
-            <NavLink to="/plataforma/ps5">PS5</NavLink>
-            <NavLink to="/plataforma/nintendo switch">Nintendo Switch</NavLink>
-            <NavLink to="/plataforma/xbox">Xbox</NavLink>
-            <NavLink to="/plataforma/pc">PC</NavLink>
-            <Link>Contactanos</Link>
+            <NavLink to="/plataforma/ps4" className="nav-links">
+              PS4
+            </NavLink>
+            <NavLink to="/plataforma/ps5" className="nav-links">
+              PS5
+            </NavLink>
+            <NavLink to="/plataforma/nintendo switch" className="nav-links">
+              Nintendo Switch
+            </NavLink>
+            <NavLink to="/plataforma/xbox" className="nav-links">
+              Xbox
+            </NavLink>
+            <NavLink to="/plataforma/pc" className="nav-links">
+              PC
+            </NavLink>
+            <NavLink className="nav-links">Contactanos</NavLink>
           </Nav>
           <CartWidget />
-          <Nav>
-            <Link href="#deets"></Link>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

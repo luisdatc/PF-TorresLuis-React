@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "nombre": "Resident Evil 2 Remake",
+    "nombre": "Resident Evil 2",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil2.jpg",
     "precio": 14999,
@@ -31,7 +31,7 @@
   },
   {
     "id": "4",
-    "nombre": "Assassin's Creed Valhalla",
+    "nombre": "Assassin's Creed",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/valhalla.jpg",
     "precio": 17500,
@@ -41,7 +41,7 @@
   },
   {
     "id": "5",
-    "nombre": "Resident Evil 3 Remake",
+    "nombre": "Resident Evil 3",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil3.jpg",
     "precio": 13799,
@@ -142,7 +142,7 @@
 
   {
     "id": "15",
-    "nombre": "Final Fantasy VII Remake",
+    "nombre": "Final Fantasy VII",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/fantasy-vii.jpg",
     "precio": 21250,
@@ -152,7 +152,7 @@
   },
   {
     "id": "16",
-    "nombre": "Uncharted 4: A Thiefts End",
+    "nombre": "Uncharted 4",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/uncharted.jpg",
     "precio": 11999,
@@ -172,7 +172,7 @@
   },
   {
     "id": "18",
-    "nombre": "Batman: Arkham Knight",
+    "nombre": "Arkham Knight",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/batman.jpg",
     "precio": 11279,
@@ -182,7 +182,7 @@
   },
   {
     "id": "19",
-    "nombre": "Call of Duty: Black Ops III",
+    "nombre": "CoD: Black Ops III",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/cod-black.jpg",
     "precio": 7999,
@@ -202,7 +202,7 @@
   },
   {
     "id": "21",
-    "nombre": "Digimon World: Next Order",
+    "nombre": "Digimon World",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/digimon.jpg",
     "precio": 9539,
@@ -212,7 +212,7 @@
   },
   {
     "id": "22",
-    "nombre": "The Elder Scrolls V: Skyrim",
+    "nombre": "The Elder Scrolls V",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/skyrim.jpg",
     "precio": 19549,
@@ -222,7 +222,7 @@
   },
   {
     "id": "23",
-    "nombre": "Crash Bandicoot 4: It's About Time",
+    "nombre": "Crash Bandicoot 4",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/crash.jpg",
     "precio": 21592,
@@ -242,7 +242,7 @@
   },
   {
     "id": "25",
-    "nombre": "The Legend of Zelda: Breath of the Wild",
+    "nombre": "TLoZ: Breath of the Wild",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/breath-of-wild.jpg",
     "precio": 29599,
@@ -292,7 +292,7 @@
   },
   {
     "id": "30",
-    "nombre": "Mario Kart 8 Deluxe",
+    "nombre": "Mario Kart 8: Deluxe + DLC",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-kart.jpg",
     "precio": 27400,
@@ -332,7 +332,7 @@
   },
   {
     "id": "34",
-    "nombre": "Diablo III: Eternal Collection",
+    "nombre": "Diablo III",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diablo3.jpg",
     "precio": 18899,
@@ -342,7 +342,7 @@
   },
   {
     "id": "35",
-    "nombre": "The Legend of Zelda: Tears of the Kingdom",
+    "nombre": "TLoZ: Tears of the Kingdom",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/tears-kingdom.jpg",
     "precio": 25000,
@@ -372,7 +372,7 @@
   },
   {
     "id": "38",
-    "nombre": "Animal Crossing: New Horizons",
+    "nombre": "Animal Crossing",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/animal-crossing.jpg",
     "precio": 25899,
@@ -392,7 +392,7 @@
   },
   {
     "id": "40",
-    "nombre": "Super Mario 3D World + Bowser's Fury",
+    "nombre": "Mario 3D World",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-3d.jpeg",
     "precio": 27610,
@@ -412,10 +412,10 @@
   },
   {
     "id": "42",
-    "nombre": "Pokemon Diamante Brillante",
+    "nombre": "Pokemon Diamante",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diamante.png",
-    "precio": 46999,
+    "precio": 25999,
     "genero": "JRPG",
     "descripcion": "Pokémon Diamante Brillante/ Perla Reluciente es el remake para Nintendo Switch de las entregas para Nintendo DS. En esta adaptación para la consola de Nintendo, se ha manteniendo la región de Sinnoh tal y como conocimos, y no se ha alterado ni la historia ni el tamaño de los pueblos y las rutas originales, que serán exactas a lo visto en los juegos originales de Pokémon. En cambio, se ha apostado por un apartado gráfico mejorado, con nuevos detalles en los escenarios y batallas tridimensionales.",
     "lanzamiento": 2021
@@ -623,7 +623,7 @@
   },
   {
     "id": "63",
-    "nombre": "God of War: Ragnarok",
+    "nombre": "GoW: Ragnarok",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/ragnarok.jpg",
     "precio": 30999,
@@ -643,7 +643,7 @@
   },
   {
     "id": "65",
-    "nombre": "Horizon Forbidden West",
+    "nombre": "Horizon Forbidden",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/horizon-2.jpg",
     "precio": 17599,
@@ -663,7 +663,7 @@
   },
   {
     "id": "67",
-    "nombre": "Resident Evil 8: Village",
+    "nombre": "Resident Evil 8",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/residentevil-8.jpg",
     "precio": 18334,
@@ -713,7 +713,7 @@
   },
   {
     "id": "72",
-    "nombre": "Call of Duty: Modern Warfare 2 (2022)",
+    "nombre": "CoD: Modern Warfare 2",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/modern-warfare.jpg",
     "precio": 33900,
@@ -783,7 +783,7 @@
   },
   {
     "id": "79",
-    "nombre": "Demon's Souls Remake",
+    "nombre": "Demon's Souls",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/demons-souls.jpg",
     "precio": 17999,
@@ -803,7 +803,7 @@
   },
   {
     "id": "81",
-    "nombre": "Wo Long: Fallen Dynasty",
+    "nombre": "Wo Long",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fallen-dynasty.jpg",
     "precio": 37499,
@@ -843,7 +843,7 @@
   },
   {
     "id": "85",
-    "nombre": "A Plague Tale: Requiem",
+    "nombre": "A Plague Tale",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/plague-tale.jpg",
     "precio": 31230,

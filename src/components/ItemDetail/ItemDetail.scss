@@ -1,0 +1,12 @@
+.card{
+    &-detail-name{
+         font-size: 2rem; 
+    }
+    &-text{
+        margin-top: 1rem;
+        text-align: justify;
+    }
+    & span{
+        margin: 0.5rem ;
+    }
+}
