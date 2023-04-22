@@ -488,7 +488,7 @@
     "imagen": "/public/stock/pc/atomic-heart.jpg",
     "precio": 16099,
     "genero": "Shooter",
-    "descripcion": "Atomic Heart es un videojuego de acción en primera persona con toques de supervivencia para Xbox Series X, PS5 y PC, así como Xbox One y PS4. El título, desarrollado por Mindfish nos trasladará a un Moscú alternativo en el que los usuarios tendrán que arreglárselas para devolver la paz a un terreno convulso y peligroso, destrozado por el inminente colapso de una todopoderosa y omnipresente Unión Soviética.",
+    "descripcion": "Atomic Heart es un videojuego de acción en primera persona con toques de supervivencia para Xbox, PS5 y PC, así como Xbox One y PS4. El título, desarrollado por Mindfish nos trasladará a un Moscú alternativo en el que los usuarios tendrán que arreglárselas para devolver la paz a un terreno convulso y peligroso, destrozado por el inminente colapso de una todopoderosa y omnipresente Unión Soviética.",
     "lanzamiento": 2023
   },
   {
@@ -668,7 +668,7 @@
     "imagen": "/public/stock/ps5/residentevil-8.jpg",
     "precio": 18334,
     "genero": "Terror",
-    "descripcion": "Resident Evil 8: Village es la octava entrega de Resident Evil, la saga de survival horror de Capcom que a lo largo de los años nos ha llevado a luchar contra zombis, mutantes y otros seres sobrenaturales. Resident Evil 8: Village, que llegará a PlayStation 5, Xbox Series X y PC nos devuelve a la primera persona como ya sucedió en la séptima parte de la serie y nos llevará a una aldea maldita aislada en un clima hostil y frío, así como asediada por extrañas criaturas que hace la vida imposible a los habitantes.",
+    "descripcion": "Resident Evil 8: Village es la octava entrega de Resident Evil, la saga de survival horror de Capcom que a lo largo de los años nos ha llevado a luchar contra zombis, mutantes y otros seres sobrenaturales. Resident Evil 8: Village, que llegará a PlayStation 5, Xbox y PC nos devuelve a la primera persona como ya sucedió en la séptima parte de la serie y nos llevará a una aldea maldita aislada en un clima hostil y frío, así como asediada por extrañas criaturas que hace la vida imposible a los habitantes.",
     "lanzamiento": 2021
   },
   {
@@ -738,7 +738,7 @@
     "imagen": "/public/stock/ps5/gotham-knights.jpg",
     "precio": 27200,
     "genero": "Aventura",
-    "descripcion": "Gotham Knights es un videojuego de acción y beat'em up basado en el universo de Batman en el que seguiremos los pasos del murciélago como uno de sus múltiples aliados y socios luego de que el héroe de la ciudad muera. Combatiendo al crimen organizado y los supervillanos, este título desarrollado por Warner Bros. Montreal nos invitará a encarnar a Batgirl, Robin, Red Hood y Nightwing y tendrá énfasis en el cooperativo a través de una propuesta de mundo abierto para consolas como PS5, Xbox Series X/S, PS4, Xbox One y PC.",
+    "descripcion": "Gotham Knights es un videojuego de acción y beat'em up basado en el universo de Batman en el que seguiremos los pasos del murciélago como uno de sus múltiples aliados y socios luego de que el héroe de la ciudad muera. Combatiendo al crimen organizado y los supervillanos, este título desarrollado por Warner Bros. Montreal nos invitará a encarnar a Batgirl, Robin, Red Hood y Nightwing y tendrá énfasis en el cooperativo a través de una propuesta de mundo abierto para consolas como PS5, Xbox/S, PS4, Xbox One y PC.",
     "lanzamiento": 2022
   },
   {
@@ -864,7 +864,7 @@
   {
     "id": "87",
     "nombre": "Far Cry 6",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/far-cry.jpg",
     "precio": 24799,
     "genero": "Acción",
@@ -874,17 +874,17 @@
   {
     "id": "88",
     "nombre": "Battlefield 2042",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/battlefield-2042.jpg",
     "precio": 22399,
     "genero": "Shooter",
-    "descripcion": "Battlefield 2042 es la nueva entrega de la saga de acción en primera persona que llegará a PC, PS5, PS4, Xbox One y Xbox Series X/S. Hablamos de un título totalmente multijugador con tres experiencias diferentes entre las que destaca la Guerra Total con partidas con hasta 128 jugadores (en PC y en la actual generación) en los mapas más grandes vistos hasta ahora en la saga con un montón de factores que pueden afectar al campo de batalla. Ambientado en el futuro cercano, nos trasladará a un escenario en el que el cambio climático ha hecho estragos.",
+    "descripcion": "Battlefield 2042 es la nueva entrega de la saga de acción en primera persona que llegará a PC, PS5, PS4, Xbox One y Xbox/S. Hablamos de un título totalmente multijugador con tres experiencias diferentes entre las que destaca la Guerra Total con partidas con hasta 128 jugadores (en PC y en la actual generación) en los mapas más grandes vistos hasta ahora en la saga con un montón de factores que pueden afectar al campo de batalla. Ambientado en el futuro cercano, nos trasladará a un escenario en el que el cambio climático ha hecho estragos.",
     "lanzamiento": 2021
   },
   {
     "id": "89",
     "nombre": "Scarlet Nexus",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/scarlet-nexus.jpg",
     "precio": 25000,
     "genero": "Aventura",
@@ -894,7 +894,7 @@
   {
     "id": "90",
     "nombre": "Minecraft Legends",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/minecraft-legends.jpg",
     "precio": 6399,
     "genero": "Estrategia",
@@ -904,7 +904,7 @@
   {
     "id": "91",
     "nombre": "Immortals Fenyx Rising",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/immortals.jpg",
     "precio": 25000,
     "genero": "Mundo Abierto",
@@ -914,7 +914,7 @@
   {
     "id": "92",
     "nombre": "Hi-Fi Rush",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/hifi-rush.jpg",
     "precio": 18700,
     "genero": "Aventura",
@@ -924,7 +924,7 @@
   {
     "id": "93",
     "nombre": "Tales of Arise",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/tales-arise.jpg",
     "precio": 24207,
     "genero": "RPG",
@@ -934,7 +934,7 @@
   {
     "id": "94",
     "nombre": "Halo Infinite",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/halo.jpg",
     "precio": 33919,
     "genero": "Shooter",
@@ -944,17 +944,17 @@
   {
     "id": "95",
     "nombre": "Forza Horizon 5",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/forza-horizon.png",
     "precio": 20000,
     "genero": "Carreras",
-    "descripcion": "Forza Horizon 5 es la nueva entrega de la saga de conducción en mundo abierto de Microsoft. El título, que llegará a Xbox One, Xbox Series X/S y PC, se ambientará en México y contará con un sistema de condiciones meteorológicas que incluirá desde leves tormentas de polvo, hasta tormentas tropicales más fuertes y otro tipo de eventos climáticos grandes y masivos. Además de la nueva información aportada a nivel de jugabilidad, los modos The Eliminator y Super 7 estarán de regreso. Forza Horizon 5 también contará con un conjunto de herramientas que permitirán crear nuestras propias carreras, modos de juego y experiencias. Todo será personalizable, hasta las reglas fundamentales, convirtiendo esta nueva entrega de la saga en la más divertida, accesible y variada.",
+    "descripcion": "Forza Horizon 5 es la nueva entrega de la saga de conducción en mundo abierto de Microsoft. El título, que llegará a Xbox One, Xbox/S y PC, se ambientará en México y contará con un sistema de condiciones meteorológicas que incluirá desde leves tormentas de polvo, hasta tormentas tropicales más fuertes y otro tipo de eventos climáticos grandes y masivos. Además de la nueva información aportada a nivel de jugabilidad, los modos The Eliminator y Super 7 estarán de regreso. Forza Horizon 5 también contará con un conjunto de herramientas que permitirán crear nuestras propias carreras, modos de juego y experiencias. Todo será personalizable, hasta las reglas fundamentales, convirtiendo esta nueva entrega de la saga en la más divertida, accesible y variada.",
     "lanzamiento": 2021
   },
   {
     "id": "96",
     "nombre": "Life is Strange: True Colors",
-    "plataforma": "Xbox Series X",
+    "plataforma": "Xbox",
     "imagen": "/public/stock/xbox/true-colors.jpg",
     "precio": 23000,
     "genero": "Aventura",

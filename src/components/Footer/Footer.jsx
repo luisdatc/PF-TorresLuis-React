@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa";
 
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,9 +16,9 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-3 col-md- col-sm-">
             <h3>Navegaci&oacute;n</h3>
             <div className="row">
-              <a href="#home" className="footer-link">
+              <Link to="/" className="footer-link">
                 Home
-              </a>
+              </Link>
               <a href="#productos" className="footer-link">
                 Productos
               </a>

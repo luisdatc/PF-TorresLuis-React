@@ -9,14 +9,14 @@ import { useParams } from "react-router-dom";
 const ItemListContainer = () => {
   const [productos, SetProductos] = useState([]);
   const [isLoading, SetIsLoading] = useState(true);
-  const { cid } = useParams;
+  const { cid } = useParams();
 
-  const getJson = async () => {
+  const getJson = (id) => {
     try {
-      const resp = await fetch("../../stock.json");
-      const respParser = await resp.json();
-      SetProductos(respParser);
-      setTimeout(() => {
+      setTimeout(async () => {
+        const resp = await fetch("/stock.json");
+        const respParser = await resp.json();
+        SetProductos(!id ? respParser : respParser.find(item.id === id));
         SetIsLoading(false);
       }, 1000);
     } catch (error) {
@@ -24,22 +24,22 @@ const ItemListContainer = () => {
     }
   };
 
-  const getJsonP = async () => {
+  const getJsonP = () => {
     try {
-      const resp = await fetch("../../stock.json");
-      const respParser = await resp.json();
-      SetProductos(
-        respParser.filter((productos) => productos.plataforma === cid)
-      );
-      setTimeout(() => {
+      setTimeout(async () => {
+        const resp = await fetch("../../stock.json");
+        const respParser = await resp.json();
+        SetProductos(
+          respParser.filter(
+            (productos) => productos.plataforma.toLowerCase() === cid
+          )
+        );
         SetIsLoading(false);
       }, 1000);
     } catch (error) {
       console.log(error);
     }
   };
-
-  console.log(cid);
 
   useEffect(() => {
     if (!cid) {
@@ -50,9 +50,9 @@ const ItemListContainer = () => {
   }, [cid]);
 
   const [pagina, setPagina] = useState(1);
-  const [porPagina, setPorPagina] = useState(12);
+  const [porPagina, setPorPagina] = useState(8);
 
-  const maximo = productos.length / porPagina;
+  const maximo = Math.ceil(productos.length / porPagina);
 
   return (
     <div className="container container-prueba">

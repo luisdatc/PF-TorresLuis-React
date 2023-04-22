@@ -1,20 +1,37 @@
 import { useParams } from "react-router-dom";
 import ItemDetail from "../ItemDetail/ItemDetail";
+import { useEffect, useState } from "react";
+import Loader from "../Loader/Loader";
 
 const ItemDetailContainer = () => {
-  //estado para guardar un producto
-  const { pid } = useParams;
+  const [producto, SetProductos] = useState({});
+  const [isLoading, SetIsLoading] = useState(true);
+  const { pid } = useParams();
 
-  console.log(pid);
-  //useeffect para llamar a la api o json para traer un producto  por id y luego guardar en el estado
+  const getJson = (id) => {
+    try {
+      setTimeout(async () => {
+        const resp = await fetch("/stock.json");
+        const respParser = await resp.json();
+        if (!id) {
+          SetProductos(respParser);
+        } else {
+          const producto = respParser.find((producto) => producto.id === id);
+          SetProductos(producto /* || [] */);
+        }
+        SetIsLoading(false);
+      }, 1000);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getJson(pid);
+  }, []);
 
   return (
-    <div>
-      <ItemDetail
-
-      //product={product}
-      />
-    </div>
+    <div>{isLoading ? <Loader /> : <ItemDetail producto={producto} />}</div>
   );
 };
 

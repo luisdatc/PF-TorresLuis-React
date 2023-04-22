@@ -13,39 +13,25 @@ const NavMenu = () => {
             src="/LOGO1.png"
             className="d-inline-block align-top navbar-logo"
           />
-          {/* <Navbar.Brand href="#home">
-          </Navbar.Brand> */}
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <NavDropdown
-              title="Juegos"
-              id="navbarScrollingDropdown"
-              href="#productos"
-            >
-              <NavLink to="/plataforma/ps4">PS4</NavLink>
-              <NavLink to="/plataforma/ps5">PS5</NavLink>
-              <NavLink to="/plataforma/nintendo-switch">
-                Nintendo Switch
-              </NavLink>
-              <NavLink to="/plataforma/xbox">Xbox</NavLink>
-              <NavLink to="/plataforma/pc">PC</NavLink>
-            </NavDropdown>
-            <Nav.Link href="#contacto">Contactanos</Nav.Link>
+            <NavLink to="/plataforma/ps4">PS4</NavLink>
+            <NavLink to="/plataforma/ps5">PS5</NavLink>
+            <NavLink to="/plataforma/nintendo switch">Nintendo Switch</NavLink>
+            <NavLink to="/plataforma/xbox">Xbox</NavLink>
+            <NavLink to="/plataforma/pc">PC</NavLink>
+            <Link>Contactanos</Link>
           </Nav>
           <CartWidget />
           <Nav>
-            <Nav.Link href="#deets"></Nav.Link>
+            <Link href="#deets"></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
-
-
-
 
 export default NavMenu;
