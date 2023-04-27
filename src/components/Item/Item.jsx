@@ -8,7 +8,7 @@ const Item = ({ id, imagen, nombre, plataforma, precio }) => {
         <img src={imagen} className="card-img-top" alt="Card-img" />
       </Link>
       <div className="card-body">
-        <h5 className="card-title">{nombre}</h5>
+        <h5 className="card-title card-title-modify">{nombre}</h5>
         <h6 className="card-subtitle">
           <span className="badge bg-secondary">{plataforma}</span>
         </h6>

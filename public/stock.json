@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "nombre": "Resident Evil 2",
+    "nombre": "Resident Evil 2 Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil2.jpg",
     "precio": 14999,
@@ -31,7 +31,7 @@
   },
   {
     "id": "4",
-    "nombre": "Assassin's Creed",
+    "nombre": "Assassin's Creed Valhalla",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/valhalla.jpg",
     "precio": 17500,
@@ -41,7 +41,7 @@
   },
   {
     "id": "5",
-    "nombre": "Resident Evil 3",
+    "nombre": "Resident Evil 3 Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/residentevil3.jpg",
     "precio": 13799,
@@ -61,7 +61,7 @@
   },
   {
     "id": "7",
-    "nombre": "Red Dead Redemption",
+    "nombre": "Red Dead Redemption II",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/redemption2.jpg",
     "precio": 15000,
@@ -101,7 +101,7 @@
   },
   {
     "id": "11",
-    "nombre": "The Last of Uf Remastered",
+    "nombre": "The Last of Us Part I: Remastered",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/tlofp1.jpg",
     "precio": 8999,
@@ -142,7 +142,7 @@
 
   {
     "id": "15",
-    "nombre": "Final Fantasy VII",
+    "nombre": "Final Fantasy VII Remake",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/fantasy-vii.jpg",
     "precio": 21250,
@@ -152,7 +152,7 @@
   },
   {
     "id": "16",
-    "nombre": "Uncharted 4",
+    "nombre": "Uncharted 4: A Thief's End",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/uncharted.jpg",
     "precio": 11999,
@@ -172,7 +172,7 @@
   },
   {
     "id": "18",
-    "nombre": "Arkham Knight",
+    "nombre": "Batman: Arkham Knight",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/batman.jpg",
     "precio": 11279,
@@ -182,7 +182,7 @@
   },
   {
     "id": "19",
-    "nombre": "CoD: Black Ops III",
+    "nombre": "Call of Duty: Black Ops III",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/cod-black.jpg",
     "precio": 7999,
@@ -202,7 +202,7 @@
   },
   {
     "id": "21",
-    "nombre": "Digimon World",
+    "nombre": "Digimon World: Next Order",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/digimon.jpg",
     "precio": 9539,
@@ -212,7 +212,7 @@
   },
   {
     "id": "22",
-    "nombre": "The Elder Scrolls V",
+    "nombre": "The Elder Scrolls V: Skyrim",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/skyrim.jpg",
     "precio": 19549,
@@ -222,7 +222,7 @@
   },
   {
     "id": "23",
-    "nombre": "Crash Bandicoot 4",
+    "nombre": "Crash Bandicoot 4: It's About Time",
     "plataforma": "PS4",
     "imagen": "/public/stock/ps4/crash.jpg",
     "precio": 21592,
@@ -242,7 +242,7 @@
   },
   {
     "id": "25",
-    "nombre": "TLoZ: Breath of the Wild",
+    "nombre": "The Legend of Zelda: Breath of the Wild",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/breath-of-wild.jpg",
     "precio": 29599,
@@ -332,7 +332,7 @@
   },
   {
     "id": "34",
-    "nombre": "Diablo III",
+    "nombre": "Diablo III: Eternal Collection",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diablo3.jpg",
     "precio": 18899,
@@ -342,7 +342,7 @@
   },
   {
     "id": "35",
-    "nombre": "TLoZ: Tears of the Kingdom",
+    "nombre": "The Legend of Zelda: Tears of the Kingdom",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/tears-kingdom.jpg",
     "precio": 25000,
@@ -372,7 +372,7 @@
   },
   {
     "id": "38",
-    "nombre": "Animal Crossing",
+    "nombre": "Animal Crossing: New Horizons",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/animal-crossing.jpg",
     "precio": 25899,
@@ -392,7 +392,7 @@
   },
   {
     "id": "40",
-    "nombre": "Mario 3D World",
+    "nombre": "Super Mario 3D World + Bowser's Fury",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/mario-3d.jpeg",
     "precio": 27610,
@@ -412,7 +412,7 @@
   },
   {
     "id": "42",
-    "nombre": "Pokemon Diamante",
+    "nombre": "Pokemon Diamante Brillante",
     "plataforma": "Nintendo Switch",
     "imagen": "/public/stock/switch/diamante.png",
     "precio": 25999,
@@ -623,7 +623,7 @@
   },
   {
     "id": "63",
-    "nombre": "GoW: Ragnarok",
+    "nombre": "God of War: Ragnarok",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/ragnarok.jpg",
     "precio": 30999,
@@ -643,7 +643,7 @@
   },
   {
     "id": "65",
-    "nombre": "Horizon Forbidden",
+    "nombre": "Horizon Forbidden West",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/horizon-2.jpg",
     "precio": 17599,
@@ -663,7 +663,7 @@
   },
   {
     "id": "67",
-    "nombre": "Resident Evil 8",
+    "nombre": "Resident Evil 8: Village",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/residentevil-8.jpg",
     "precio": 18334,
@@ -713,7 +713,7 @@
   },
   {
     "id": "72",
-    "nombre": "CoD: Modern Warfare 2",
+    "nombre": "Call of Duty: Modern Warfare 2",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/modern-warfare.jpg",
     "precio": 33900,
@@ -783,7 +783,7 @@
   },
   {
     "id": "79",
-    "nombre": "Demon's Souls",
+    "nombre": "Demon's Souls Remake",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/demons-souls.jpg",
     "precio": 17999,
@@ -803,7 +803,7 @@
   },
   {
     "id": "81",
-    "nombre": "Wo Long",
+    "nombre": "Wo Long: Fallen Dynasty",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/fallen-dynasty.jpg",
     "precio": 37499,
@@ -843,7 +843,7 @@
   },
   {
     "id": "85",
-    "nombre": "A Plague Tale",
+    "nombre": "A Plague Tale: Requiem",
     "plataforma": "PS5",
     "imagen": "/public/stock/ps5/plague-tale.jpg",
     "precio": 31230,

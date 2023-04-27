@@ -20,7 +20,7 @@ const ItemDetailContainer = () => {
           SetProductos(producto /* || [] */);
         }
         SetIsLoading(false);
-      }, 1000);
+      }, 3500);
     } catch (error) {
       console.log(error);
     }

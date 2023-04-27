@@ -12,7 +12,7 @@ const Footer = () => {
     <footer id="contacto" className="footer text-center">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
+          <div className="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block mt-2">
             <h3>Formas de Envio</h3>
             <div className="footer-logos">
               <div className="col-xl-4 col-lg-4 col-md-4">
@@ -38,7 +38,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-2">
             <h3>Contacto</h3>
             <div className="footer-contacto-icons">
               <p>
@@ -55,7 +55,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6  mt-2">
             <h3>Redes Sociales</h3>
             <h5>Te invitamos a seguirnos en nuestras redes:</h5>
             <div className="footer-social-icons">

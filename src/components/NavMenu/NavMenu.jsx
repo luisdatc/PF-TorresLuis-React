@@ -17,7 +17,17 @@ const NavMenu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <NavLink to="/plataforma/ps4" className="nav-links">
+            <Link to="/" className="nav-links">
+              Home
+            </Link>
+            <Nav.Link href="#productos" className="nav-links p-0">
+              Productos
+            </Nav.Link>
+            <Nav.Link href="#contacto" className="nav-links p-0">
+              Contacto
+            </Nav.Link>
+
+            {/* <NavLink to="/plataforma/ps4" className="nav-links">
               PS4
             </NavLink>
             <NavLink to="/plataforma/ps5" className="nav-links">
@@ -32,7 +42,7 @@ const NavMenu = () => {
             <NavLink to="/plataforma/pc" className="nav-links">
               PC
             </NavLink>
-            <NavLink className="nav-links">Contactanos</NavLink>
+            <NavLink className="nav-links">Contactanos</NavLink> */}
           </Nav>
           <CartWidget />
         </Navbar.Collapse>

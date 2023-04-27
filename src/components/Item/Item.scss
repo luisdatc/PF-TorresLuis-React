@@ -1,6 +1,13 @@
 .card {
   padding: 0;
   margin: 0.5rem 0;
+  &-title-modify{
+    line-height: 1.4;
+    height: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 .itemBuyButton {

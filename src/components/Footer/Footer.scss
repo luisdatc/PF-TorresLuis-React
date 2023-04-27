@@ -1,9 +1,12 @@
 .footer {
+  background-color: #7ed957;
   margin-top: 1rem;
   &-logos {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20rem;
+    margin: auto;
   }
   &-contacto-icons {
     display: flex;
@@ -16,7 +19,7 @@
     }
     &-ws {
       font-size: 1.5rem;
-      color: #7ed957;
+      color: #798283;
     }
     &-mail {
       font-size: 1.5rem;

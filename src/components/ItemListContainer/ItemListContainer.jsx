@@ -5,6 +5,7 @@ import ItemList from "../ItemList/ItemList";
 import "./ItemListContainer.scss";
 import Paginacion from "../Paginacion/Paginacion";
 import { useParams } from "react-router-dom";
+import PlatformIcon from "../PlatformIcon/PlatformIcon";
 
 const ItemListContainer = () => {
   const [productos, SetProductos] = useState([]);
@@ -18,7 +19,7 @@ const ItemListContainer = () => {
         const respParser = await resp.json();
         SetProductos(!id ? respParser : respParser.find(item.id === id));
         SetIsLoading(false);
-      }, 1000);
+      }, 3500);
     } catch (error) {
       console.log(error);
     }
@@ -56,7 +57,8 @@ const ItemListContainer = () => {
 
   return (
     <div className="container container-prueba">
-      <div className="row row-line" id="productos">
+      <div className="row row-line">
+        <PlatformIcon />
         {isLoading ? (
           <Loader />
         ) : (

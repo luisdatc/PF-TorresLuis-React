@@ -10,10 +10,25 @@ const Paginacion = ({ pagina, setPagina, maximo }) => {
     setPagina(pagina + 1);
   };
 
+  
   const previousPage = () => {
     setInput(input - 1);
     setPagina(pagina - 1);
   };
+
+//en duda esta funcion
+  const handleClick = () => {
+    window.scrollTo({
+      top: 800,
+      behavior: "smooth",
+    });
+  };
+
+  const ScrollToTopButtonNext = () => {
+    nextPage();
+    handleClick();
+  };
+//hasta aca la duda
 
   return (
     <div className="pagination">
@@ -31,7 +46,7 @@ const Paginacion = ({ pagina, setPagina, maximo }) => {
       </div>
       <button
         className="page"
-        onClick={nextPage}
+        onClick={ScrollToTopButtonNext}
         disabled={pagina === maximo || pagina > maximo}
       >
         <span>Next</span>
