@@ -8,28 +8,29 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import NotFound404 from "./components/NotFound404/NotFound404";
-import PlatformIcon from "./components/PlatformIcon/PlatformIcon";
+import { CartContextProvider } from "./context/CartContext";
+import CartContainer from "./components/CartContainer/CartContainer";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavMenu />
-      <MainSection />
-      <Routes>
-        <Route path="/" element={<ItemListContainer />} />
-        <Route path="/plataforma/:cid" element={<ItemListContainer />} />
-        <Route path="/detalle/:pid" element={<ItemDetailContainer />} />
-        <Route path="/NotFound404" element={<NotFound404 />} />
+      <CartContextProvider>
+        <NavMenu />
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/plataforma/:cid" element={<ItemListContainer />} />
+          <Route path="/detalle/:pid" element={<ItemDetailContainer />} />
+          <Route path="/carrito" element={<CartContainer />} />
 
-        {/* <Route path="*" element={<Navigate to="/" />} />  */}
-        <Route path="*" element={<Navigate to="/NotFound404" />} />
-      </Routes>
-      <ShipCardSales />
-      <Footer />
+          <Route path="/NotFound404" element={<NotFound404 />} />
+          {/* <Route path="*" element={<Navigate to="/" />} />  */}
+          <Route path="*" element={<Navigate to="/NotFound404" />} />
+        </Routes>
+        <ShipCardSales />
+        <Footer />
+      </CartContextProvider>
     </BrowserRouter>
   );
 }
-
-
 
 export default App;

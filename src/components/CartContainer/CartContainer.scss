@@ -1,0 +1,35 @@
+.cartContainer {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  &-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &-price{
+    margin: 0;
+  }
+  &-price-button{
+    margin: auto;
+  }
+  &-trash{
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    color: rgb(204, 12, 12);
+  }
+  &-deleteQuantity-button{
+    background-color: transparent;
+    font-size:2rem;
+    border: 0;
+    color: rgb(204, 12, 12);
+    margin: 0 0.5rem;
+  }
+}
+
+.img-width {
+  width: 40%;
+  border-radius: 25px;
+}

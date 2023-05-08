@@ -1,0 +1,52 @@
+.itemBuyButtonLeft,
+.itemBuyButtonRight {
+  background: #7ed957;
+  border: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 3rem;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.itemBuyButtonLeft {
+  width: 3rem;
+  transform: skew(-21deg);
+}
+
+.itemBuyButtonRight {
+  width: 3rem;
+  transform: skew(21deg);
+}
+
+.span-button {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.itemBuyButtonLeft::before,
+.itemBuyButtonRight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.itemBuyButtonLeft:hover,
+.itemBuyButtonRight:hover {
+  color: #fff;
+}
+
+.itemBuyButtonLeft:hover::before,
+.itemBuyButtonRight:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}

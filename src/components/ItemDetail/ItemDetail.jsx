@@ -1,22 +1,24 @@
-import PlatformIcon from "../PlatformIcon/PlatformIcon";
-import "./ItemDetail.scss";
-import ItemCount from "../ItemCount/ItemCount";
 import { useState } from "react";
-import { Button } from "bootstrap";
+import { useCartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
+import PlatformIcon from "../PlatformIcon/PlatformIcon";
+import ItemCount from "../ItemCount/ItemCount";
+import "./ItemDetail.scss";
 
 const ItemDetail = ({ producto }) => {
   const [isCant, setIsCant] = useState(false);
 
+  const { addToCart } = useCartContext();
+
   const onAdd = (cantidad) => {
-    console.log("cantidad agregada ", cantidad);//borrar
+    addToCart({ ...producto, cantidad });
     setIsCant(true);
   };
 
   return (
     <>
       <PlatformIcon />
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9 mx-auto p-0">
             <div className="card mb-3">
@@ -48,12 +50,17 @@ const ItemDetail = ({ producto }) => {
                       {!isCant ? (
                         <ItemCount stock={5} initial={1} onAdd={onAdd} />
                       ) : (
-                        <>
-                          <Link>Terminar Compra</Link>
-                          <Link to="/">Seguir Comprando</Link>
-                        </>
+                        <div className="text-center mt-3">
+                          <Link to="/carrito">
+                            <button className="itemBuyButtonR"><span>Terminar Compra</span> </button>
+                          </Link>
+                          <Link to="/">
+                            <button className="itemBuyButtonL"><span>Seguir Comprando</span> </button>
+                          </Link>
+                        </div>
                       )}
                     </h5>
+                    <h6 className="pt-5">* Recuerda: solo puedes agregar 5 unidades de este articulo como maximo!</h6>
                   </div>
                 </div>
               </div>

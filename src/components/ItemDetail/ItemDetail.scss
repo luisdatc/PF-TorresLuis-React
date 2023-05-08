@@ -1,12 +1,72 @@
-.card{
-    &-detail-name{
-         font-size: 2rem; 
-    }
-    &-text{
-        margin-top: 1rem;
-        text-align: justify;
-    }
-    & span{
-        margin: 0.5rem ;
-    }
+.card {
+  &-detail-name {
+    font-size: 2rem;
+  }
+  &-text {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  & span {
+    margin: 0.5rem;
+  }
+}
+
+.itemBuyButtonC,
+.itemBuyButtonL,
+.itemBuyButtonR {
+  background: #7ed957;
+  border: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.span-button {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.itemBuyButtonC::before,
+.itemBuyButtonR::before,
+.itemBuyButtonL::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.itemBuyButtonC:hover,
+.itemBuyButtonR:hover,
+.itemBuyButtonL:hover {
+  color: #fff;
+}
+
+.itemBuyButtonL {
+  transform: skew(-21deg);
+}
+
+.itemBuyButtonC {
+  transform: skew(0deg);
+  border-radius: 5px;
+  width: 120px;
+}
+
+.itemBuyButtonR {
+  transform: skew(21deg);
+}
+
+.itemBuyButtonL:hover::before,
+.itemBuyButtonR:hover::before,
+.itemBuyButtonC:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
 }
