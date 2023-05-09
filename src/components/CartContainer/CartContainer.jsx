@@ -38,12 +38,12 @@ const CartContainer = () => {
                     <div className="cartContainer-quantity">
                       <h4>Cantidad seleccionada: {prod.cantidad}</h4>
                       <h5 className="cartContainer-deleteQuantity">
-                        Eliminar unidad: 
+                        Eliminar unidad:
                         <button
                           onClick={() => deleteCantidad(prod.id)}
                           className="cartContainer-deleteQuantity-button"
                         >
-                           <FaMinus />
+                          <FaMinus />
                         </button>
                       </h5>
                     </div>
@@ -78,7 +78,9 @@ const CartContainer = () => {
               <Link to="/">
                 <button>seguir comprando</button>
               </Link>
-              <button>Finalizar</button>
+              <Link to="/checkout">
+                <button>Finalizar</button>
+              </Link>
             </div>
           </div>
           <div>

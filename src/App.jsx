@@ -10,6 +10,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import NotFound404 from "./components/NotFound404/NotFound404";
 import { CartContextProvider } from "./context/CartContext";
 import CartContainer from "./components/CartContainer/CartContainer";
+import CheckoutForm from "./components/CheckoutForm/CheckoutForm";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/plataforma/:cid" element={<ItemListContainer />} />
           <Route path="/detalle/:pid" element={<ItemDetailContainer />} />
           <Route path="/carrito" element={<CartContainer />} />
+          <Route path="/checkout" element={<CheckoutForm />} />
 
           <Route path="/NotFound404" element={<NotFound404 />} />
           {/* <Route path="*" element={<Navigate to="/" />} />  */}

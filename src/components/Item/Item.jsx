@@ -16,7 +16,7 @@ const Item = ({ id, imagen, nombre, plataforma, precio }) => {
         <div className="text-center">
           <Link to={`/detalle/${id}`}>
             <button type="button" className="itemBuyButton text-center">
-              <span className="span-button">Comprar</span>
+              <span className="span-button">+ Detalles</span>
             </button>
           </Link>
         </div>

@@ -45,27 +45,27 @@ const ItemListContainer = () => {
 
   const getDataCategory = () => {
     try {
-      setTimeout(async () => {
-        const dbFirestore = getFirestore();
-        const queryCollection = collection(dbFirestore, "productos");
+      const dbFirestore = getFirestore();
+      const queryCollection = collection(dbFirestore, "productos");
 
-        const queryFiltrada = query(
-          queryCollection,
-          where("plataforma", "==", cid)
-        );
+      const queryFiltrada = query(
+        queryCollection,
+        where("plataforma", "==", cid)
+      );
 
-        getDocs(queryFiltrada)
-          .then((resp) =>
-            SetProductos(
-              resp.docs.map((productos) => ({
-                id: productos.id,
-                ...productos.data(),
-              }))
-            )
+      getDocs(queryFiltrada)
+        .then((resp) =>
+          SetProductos(
+            resp.docs.map((productos) => ({
+              id: productos.id,
+              ...productos.data(),
+            }))
           )
-          .catch((err) => console.log(err))
-          .finally(() => SetIsLoading(false));
-      }, 1000);
+        )
+        .catch((err) => console.log(err))
+        .finally(() => SetIsLoading(false));
+/*       setTimeout(async () => {
+      }, 1000); */
     } catch (error) {
       console.log(error);
     }
