@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { FaTrashAlt, FaMinus } from "react-icons/fa";
 
 import "./CartContainer.scss";
-
 const CartContainer = () => {
   const { cartList, vaciarCarrito, deleteProd, totalCarrito, deleteCantidad } =
     useCartContext();
