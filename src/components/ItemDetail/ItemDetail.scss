@@ -28,7 +28,6 @@
   transform: skew(21deg);
 }
 
-.itemBuyButtonC::before,
 .itemBuyButtonR::before,
 .itemBuyButtonL::before {
   content: "";
@@ -57,6 +56,20 @@
   transform: skew(0deg);
   border-radius: 5px;
   width: 120px;
+}
+
+.itemBuyButtonC::before{
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s;
 }
 
 .itemBuyButtonR {

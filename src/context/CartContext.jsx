@@ -18,32 +18,66 @@ export const CartContextProvider = ({ children }) => {
 
     if (index !== -1) {
       //sumar cantidad si el producto ya esta en el carrito
+
       const newCartList = [...cartList];
-      newCartList[index].cantidad += productoNuevo.cantidad;
-      setCartList(newCartList);
-      toast.info("Se sumo cantidad al carrito", {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-      });
+      const totalUnidades =
+        newCartList[index].cantidad + productoNuevo.cantidad;
+      if (totalUnidades > 5) {
+        toast(
+          `😣 No puedes agregar mas de 5 unidades de ${productoNuevo.nombre}`,
+          {
+            position: "bottom-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            progress: undefined,
+            theme: "dark",
+          }
+        );
+      } else {
+        newCartList[index].cantidad = totalUnidades;
+        setCartList(newCartList);
+        toast(
+          `✔ Se sumo la cantidad al carrito del producto ${productoNuevo.nombre}`,
+          {
+            position: "bottom-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            progress: undefined,
+            theme: "dark",
+          }
+        );
+      }
     } else {
-      //si el producto no esta en el carrito lo agrego
-      setCartList([...cartList, productoNuevo]);
-      toast.success("👍Producto agregado al carrito", {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-      });
+      if (productoNuevo.cantidad > 5) {
+        toast(
+          `😣 No puedes agregar mas de 5 unidades de ${productoNuevo.nombre}`,
+          {
+            position: "bottom-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            progress: undefined,
+            theme: "dark",
+          }
+        );
+      } else {
+        setCartList([...cartList, productoNuevo]);
+        toast(`😉 Se agrego ${productoNuevo.nombre} al carrito`, {
+          position: "bottom-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      }
     }
     //por si quiero guardar en local--->localStorage.setItem("cartList", cartList)
   };
@@ -64,15 +98,15 @@ export const CartContextProvider = ({ children }) => {
   //eliminar por articulo -->hacerlo por el id
   const deleteProd = (id) => {
     setCartList((itemCart) => itemCart.filter((item) => item.id !== id));
-    toast.error("Producto Eliminado", {
+    toast("😭 Producto Eliminado", {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 3500,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light",
+      theme: "dark",
     });
   };
 
@@ -84,15 +118,15 @@ export const CartContextProvider = ({ children }) => {
       if (newCartList[index].cantidad > 1) {
         newCartList[index].cantidad -= 1; //resto una unidad al producto
         setCartList(newCartList);
-        toast.error("Eliminaste una unidad del producto", {
+        toast("😢 Eliminaste una unidad del producto", {
           position: "top-right",
-          autoClose: 5000,
+          autoClose: 3500,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          theme: "light",
+          theme: "dark",
         });
       } else {
         deleteProd(id); //si el producto tiene una sola unidad lo elimino
@@ -103,9 +137,9 @@ export const CartContextProvider = ({ children }) => {
   //vaciar carrito completo
   const vaciarCarrito = () => {
     setCartList([]);
-    toast.warn("Se eliminaron todos los productos", {
+    toast(" Se vacio el carrito", {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 3500,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,

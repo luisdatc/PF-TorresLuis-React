@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./CheckoutForm.scss";
 import { useCartContext } from "../../context/CartContext";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
+import { Link } from "react-router-dom";
 
 const CheckoutForm = () => {
   const { cartList, vaciarCarrito, totalCarrito } = useCartContext();
@@ -39,16 +40,21 @@ const CheckoutForm = () => {
     //crear y agregar la orden a firestore
     const dbFirestore = getFirestore();
     const ordenCollection = collection(dbFirestore, "ordenes");
-    addDoc(ordenCollection, orden).then((respuesta) => {
-      setOrdenId(respuesta.id);
-      alert("Orden Completada");
-    });
-    setDataCheckout({
-      nombre: "",
-      telefono: "",
-      correo: "",
-    });
-    vaciarCarrito();
+    addDoc(ordenCollection, orden)
+      .then((respuesta) => {
+        setOrdenId(respuesta.id);
+      })
+      .catch((err) => console.log(err))
+      .finally(() => {
+        setDataCheckout({
+          nombre: "",
+          telefono: "",
+          correo: "",
+        });
+        setTimeout(() => {
+          vaciarCarrito();
+        }, 2000);
+      });
   };
 
   const handleOnChange = (event) => {
@@ -61,7 +67,17 @@ const CheckoutForm = () => {
   return (
     <>
       {ordenId ? (
-        <h1>El id de su orden es: {ordenId}</h1>
+        <>
+          <h1 className="text-center mt-3 mb-3 orden-id">
+            El ID de su orden es: {ordenId}
+          </h1>
+          <div className="text-center mt-3 mb-3">
+            <h3>Para volver al Home presiona en el logo de nuestra tienda</h3>
+            <Link to="/">
+              <img src="/logo2.png" alt="Logo Gamer Zone" className="img-fluid" />
+            </Link>
+          </div>
+        </>
       ) : (
         <main className="section_form">
           <form onSubmit={createOrder} className="feed-form">

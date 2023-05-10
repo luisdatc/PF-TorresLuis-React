@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useCartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import PlatformIcon from "../PlatformIcon/PlatformIcon";
@@ -7,13 +7,19 @@ import "./ItemDetail.scss";
 
 const ItemDetail = ({ producto }) => {
   const [isCant, setIsCant] = useState(false);
-
-  const { addToCart } = useCartContext();
+  const { addToCart, cartList } = useCartContext();
 
   const onAdd = (cantidad) => {
     addToCart({ ...producto, cantidad });
     setIsCant(true);
   };
+
+  useEffect(() => {
+    const productoEnCarrito = cartList.find((prod) => prod.id === producto.id);
+    if (productoEnCarrito && productoEnCarrito.cantidad >= 5) {
+      setIsCant(true);
+    }
+  }, [cartList, producto]);
 
   return (
     <>
@@ -52,15 +58,22 @@ const ItemDetail = ({ producto }) => {
                       ) : (
                         <div className="text-center mt-3">
                           <Link to="/carrito">
-                            <button className="itemBuyButtonR"><span>Terminar Compra</span> </button>
+                            <button className="itemBuyButtonR">
+                              <span>Terminar Compra</span>{" "}
+                            </button>
                           </Link>
                           <Link to="/">
-                            <button className="itemBuyButtonL"><span>Seguir Comprando</span> </button>
+                            <button className="itemBuyButtonL">
+                              <span>Seguir Comprando</span>{" "}
+                            </button>
                           </Link>
                         </div>
                       )}
                     </h5>
-                    <h6 className="pt-5">* Recuerda: solo puedes agregar 5 unidades de este articulo como maximo!</h6>
+                    <h6 className="pt-5">
+                      * Recuerda: solo puedes agregar 5 unidades de este
+                      articulo como maximo!
+                    </h6>
                   </div>
                 </div>
               </div>

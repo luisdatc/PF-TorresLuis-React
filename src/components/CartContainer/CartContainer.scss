@@ -1,5 +1,5 @@
 .cartContainer {
-  border: 1px solid black;
+  border: 2px solid #ff3131;
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 10px;
@@ -32,4 +32,66 @@
 .img-width {
   width: 40%;
   border-radius: 25px;
+}
+
+
+
+.cartButton {
+  background: #7ed957;
+  border: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+.span-button {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.itemBuyButtonR::before,
+.itemBuyButtonL::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.cartButton:hover {
+  color: #fff;
+}
+
+.cartButton {
+  transform: skew(0deg);
+  border-radius: 5px;
+  
+}
+
+.cartButton::before{
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: #ff3131;
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.cartButton:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
 }
