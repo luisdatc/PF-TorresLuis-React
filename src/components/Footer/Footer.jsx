@@ -17,21 +17,21 @@ const Footer = () => {
             <div className="footer-logos">
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <img
-                  src="/public/logo-oca.png"
+                  src="/Logo-oca.png"
                   alt="logo Oca"
                   className="img-fluid"
                 />
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <img
-                  src="/public/correo-argentino.png"
+                  src="/correo-argentino.png"
                   alt="Logo Correo Argentino"
                   className="img-fluid"
                 />
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <img
-                  src="/public/andreani-logo.png"
+                  src="/andreani-logo.png"
                   alt="Logo Andreani"
                   className="img-fluid"
                 />

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext";
 
+import "./CartCheckout.scss";
+
 const CartCheckout = () => {
   const { vaciarCarrito, totalCarrito } = useCartContext();
 

@@ -1,8 +1,8 @@
 import { FaMinus, FaTrashAlt } from "react-icons/fa";
 
+import "./CartItem.scss";
 
-const CartItem = ({prod, deleteProd, deleteCantidad}) => {
-
+const CartItem = ({ prod, deleteProd, deleteCantidad }) => {
   return (
     <div className="row cartContainer" key={prod.id}>
       <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
@@ -27,7 +27,8 @@ const CartItem = ({prod, deleteProd, deleteCantidad}) => {
             </div>
           </div>
         </div>
-        <div className="cart-flex"></div>
+        {/*         <div className="cart-flex"></div>
+         */}{" "}
       </div>
       <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 cartContainer-price-button">
         <div className="row">

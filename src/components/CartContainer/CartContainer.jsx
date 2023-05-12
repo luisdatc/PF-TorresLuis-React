@@ -5,7 +5,6 @@ import CartCheckout from "../CartCheckout/CartCheckout";
 import CartEmpty from "../CartEmpty/CartEmpty";
 
 import "./CartContainer.scss";
-
 const CartContainer = () => {
   const { cartList, deleteProd, deleteCantidad } = useCartContext();
 
@@ -21,6 +20,7 @@ const CartContainer = () => {
         <div className="container w-75" key="cart-container">
           {cartList.map((prod) => (
             <CartItem
+              key={prod.id}
               prod={prod}
               deleteCantidad={deleteCantidad}
               deleteProd={deleteProd}

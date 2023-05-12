@@ -16,6 +16,21 @@ export const CartContextProvider = ({ children }) => {
       (producto) => producto.id === productoNuevo.id
     );
 
+    const toastError = () => {
+      toast(
+        `😣 No puedes agregar mas de 5 unidades de ${productoNuevo.nombre}`,
+        {
+          position: "bottom-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          progress: undefined,
+          theme: "dark",
+        }
+      );
+    };
+
     if (index !== -1) {
       //sumar cantidad si el producto ya esta en el carrito
 
@@ -23,18 +38,7 @@ export const CartContextProvider = ({ children }) => {
       const totalUnidades =
         newCartList[index].cantidad + productoNuevo.cantidad;
       if (totalUnidades > 5) {
-        toast(
-          `😣 No puedes agregar mas de 5 unidades de ${productoNuevo.nombre}`,
-          {
-            position: "bottom-right",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            progress: undefined,
-            theme: "dark",
-          }
-        );
+        toastError();
       } else {
         newCartList[index].cantidad = totalUnidades;
         setCartList(newCartList);
@@ -53,18 +57,7 @@ export const CartContextProvider = ({ children }) => {
       }
     } else {
       if (productoNuevo.cantidad > 5) {
-        toast(
-          `😣 No puedes agregar mas de 5 unidades de ${productoNuevo.nombre}`,
-          {
-            position: "bottom-right",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            progress: undefined,
-            theme: "dark",
-          }
-        );
+        toastError();
       } else {
         setCartList([...cartList, productoNuevo]);
         toast(`😉 Se agrego ${productoNuevo.nombre} al carrito`, {
