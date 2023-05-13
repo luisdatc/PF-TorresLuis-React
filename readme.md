@@ -56,15 +56,15 @@ Imagen de la pantalla principal de la pagina:
 
 <p align="justify">Si quieres eliminar una unidad del articulo del carrito puedes buscar en el articulo un signo de "-" de color rojo. Si quieres eliminar toda la cantidad del articulo solo tienes que presionar el icono de la basura.</p>
 
-<img src="public/carrito1.png">
+<img src="public/cart1.png">
 
 <p align="justify">Luego de eliminar una unidad o el articulo completo podras ver una notificacion indicandolo.</p>
 
 <p align="justify">Si quieres vaciar el carrito completo puedes presionar el boton que dice "Vaciar Carrito" asi mismo te saldra una notificacion que te dira la accion realizada. Si quieres proceder con al compra puedes presionar el boton que dice finalizar.</p>
 
-<img src="public/carrito3.png">
+<img src="public/cart3.png">
 
-<img src="public/carrito2.png">
+<img src="public/cart2.png">
 
 <p align="justify">El mismo boton te llevara a un formulario donde tendras que llenar los campos (todos) para proceder a generar tu orden.</p>
 
@@ -80,6 +80,6 @@ Imagen de la pantalla principal de la pagina:
 
 <p align="justify">El carrito quedara vacio y te dira que te dirijas al home si quieres comprar algun producto.</p>
 
-<img src="public/carritovacio.png">
+<img src="public/cartempty.png">
 
 <h3>Espero estas instrucciones te ayuden y que disfrutes este proyecto.</h3>
