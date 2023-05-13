@@ -63,18 +63,20 @@ Imagen de la pantalla principal de la pagina:
 <p align="justify">Si quieres vaciar el carrito completo puedes presionar el boton que dice "Vaciar Carrito" asi mismo te saldra una notificacion que te dira la accion realizada. Si quieres proceder con al compra puedes presionar el boton que dice finalizar.</p>
 
 <img src="public/carrito3.png">
+
 <img src="public/carrito2.png">
 
 <p align="justify">El mismo boton te llevara a un formulario donde tendras que llenar los campos (todos) para proceder a generar tu orden.</p>
 
-<img src="public/compraform1.png">
-<img src="public/compraform2.png">
+<img src="public/form1.png">
+
+<img src="public/form2.png">
 
 <p align="justify">Luego de completar todos los campos y pasar la verificacion de los correos puedes presionar el boton de generar orden.</p>
 
 <p align="justify">Generada la orden te aparecera en pantalla el id de la orden que te servira para identificar tu pedido.</p>
 
-<img src="public/compraform3.png">
+<img src="public/form3.png">
 
 <p align="justify">El carrito quedara vacio y te dira que te dirijas al home si quieres comprar algun producto.</p>
 
