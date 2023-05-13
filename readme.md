@@ -80,4 +80,4 @@ Imagen de la pantalla principal de la pagina:
 
 <img src="public/carritovacio.png">
 
-<h3>Espero estas instrucciones te ayuden y que disfrutes este proyecto</h3>
+<h3>Espero estas instrucciones te ayuden y que disfrutes este proyecto.</h3>
