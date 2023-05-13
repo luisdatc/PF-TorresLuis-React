@@ -1,20 +1,21 @@
 import { useState } from "react";
-import "./ItemCount.scss";
 import { useCartContext } from "../../context/CartContext";
 
+import "./ItemCount.scss";
+
 const ItemCount = ({ stock, initial, onAdd }) => {
-  const [contador, setContador] = useState(initial);
+  const [contador, guardarContador] = useState(initial);
   const { totalCantidad } = useCartContext();
 
   const handleSuma = () => {
     if (contador < stock) {
-      setContador(contador + 1);
+      guardarContador(contador + 1);
     }
   };
 
   const handleResta = () => {
     if (contador > 1) {
-      setContador(contador - 1);
+      guardarContador(contador - 1);
     }
   };
 

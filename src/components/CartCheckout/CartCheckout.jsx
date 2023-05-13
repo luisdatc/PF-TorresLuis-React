@@ -10,7 +10,12 @@ const CartCheckout = () => {
     <>
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-          <h2>Total de la Compra: {totalCarrito()} $ARS</h2>
+          <h2>
+            Total de la Compra:{" "}
+            <strong className="cart-checkout-price">
+              {totalCarrito()} $ARS
+            </strong>
+          </h2>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 text-end">
           <Link to="/">

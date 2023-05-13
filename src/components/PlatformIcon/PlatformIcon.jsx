@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+
 import "./PlatformIcon.scss";
 
 const PlatformIcon = () => {
-  //AGREGAR LO DE CUANDO ESTE ACTIVO CAMBIE EL FONDO
   return (
     <div className="container mt-2 mb-2" id="productos">
       <div className="row justify-content-center platform-icons">

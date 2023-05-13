@@ -1,5 +1,4 @@
 import Item from "../Item/Item";
-import "./ItemList.scss";
 
 const ItemList = ({ data, pagina, porPagina }) => {
   return data

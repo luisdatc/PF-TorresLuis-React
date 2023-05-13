@@ -1,5 +1,4 @@
 import { Carousel } from "react-bootstrap";
-import "./CarouselM.scss";
 
 const CarouselM = ({ img1, img2, img3 }) => {
   return (

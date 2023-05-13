@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaMapMarker,
 } from "react-icons/fa";
+
 import "./Footer.scss";
 
 const Footer = () => {

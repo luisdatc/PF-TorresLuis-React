@@ -3,23 +3,26 @@ import { useCartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import PlatformIcon from "../PlatformIcon/PlatformIcon";
 import ItemCount from "../ItemCount/ItemCount";
+
 import "./ItemDetail.scss";
 
 const ItemDetail = ({ producto }) => {
-  const [isCant, setIsCant] = useState(false);
-  const { addToCart, cartList } = useCartContext();
+  const [esCantidad, guardarEsCantidad] = useState(false);
+  const { agregarCarrito, carritoLista } = useCartContext();
 
   const onAdd = (cantidad) => {
-    addToCart({ ...producto, cantidad });
-    setIsCant(true);
+    agregarCarrito({ ...producto, cantidad });
+    guardarEsCantidad(true);
   };
 
   useEffect(() => {
-    const productoEnCarrito = cartList.find((prod) => prod.id === producto.id);
+    const productoEnCarrito = carritoLista.find(
+      (prod) => prod.id === producto.id
+    );
     if (productoEnCarrito && productoEnCarrito.cantidad >= 5) {
-      setIsCant(true);
+      guardarEsCantidad(true);
     }
-  }, [cartList, producto]);
+  }, [carritoLista, producto]);
 
   return (
     <>
@@ -53,7 +56,7 @@ const ItemDetail = ({ producto }) => {
                       Precio: {producto.precio} $ARS
                     </h5>
                     <h5 className="card-title">
-                      {!isCant ? (
+                      {!esCantidad ? (
                         <ItemCount stock={5} initial={1} onAdd={onAdd} />
                       ) : (
                         <div className="text-center mt-3">

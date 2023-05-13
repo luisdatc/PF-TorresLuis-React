@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
-
 import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
 
 export const CartContext = createContext([]);
@@ -8,11 +8,11 @@ export const CartContext = createContext([]);
 export const useCartContext = () => useContext(CartContext);
 
 export const CartContextProvider = ({ children }) => {
-  const [cartList, setCartList] = useState([]);
+  const [carritoLista, setCarritoLista] = useState([]);
 
-  const addToCart = (productoNuevo) => {
+  const agregarCarrito = (productoNuevo) => {
     //Verificar si el producto ya esta en el carrito
-    const index = cartList.findIndex(
+    const index = carritoLista.findIndex(
       (producto) => producto.id === productoNuevo.id
     );
 
@@ -34,14 +34,14 @@ export const CartContextProvider = ({ children }) => {
     if (index !== -1) {
       //sumar cantidad si el producto ya esta en el carrito
 
-      const newCartList = [...cartList];
+      const nuevoCarritoLista = [...carritoLista];
       const totalUnidades =
-        newCartList[index].cantidad + productoNuevo.cantidad;
+        nuevoCarritoLista[index].cantidad + productoNuevo.cantidad;
       if (totalUnidades > 5) {
         toastError();
       } else {
-        newCartList[index].cantidad = totalUnidades;
-        setCartList(newCartList);
+        nuevoCarritoLista[index].cantidad = totalUnidades;
+        setCarritoLista(nuevoCarritoLista);
         toast(
           `✔ Se sumo la cantidad al carrito del producto ${productoNuevo.nombre}`,
           {
@@ -59,7 +59,7 @@ export const CartContextProvider = ({ children }) => {
       if (productoNuevo.cantidad > 5) {
         toastError();
       } else {
-        setCartList([...cartList, productoNuevo]);
+        setCarritoLista([...carritoLista, productoNuevo]);
         toast(`😉 Se agrego ${productoNuevo.nombre} al carrito`, {
           position: "bottom-right",
           autoClose: 2000,
@@ -72,25 +72,27 @@ export const CartContextProvider = ({ children }) => {
         });
       }
     }
-    //por si quiero guardar en local--->localStorage.setItem("cartList", cartList)
   };
 
   //cantidad total de articulos en el carrito
   const cantidadTotalEnCarrito = () => {
-    return cartList.reduce((total, producto) => total + producto.cantidad, 0);
+    return carritoLista.reduce(
+      (total, producto) => total + producto.cantidad,
+      0
+    );
   };
 
   //cantidad total de la compra
   const totalCarrito = () => {
-    return cartList.reduce(
+    return carritoLista.reduce(
       (total, producto) => total + producto.precio * producto.cantidad,
       0
     );
   };
 
   //eliminar por articulo -->hacerlo por el id
-  const deleteProd = (id) => {
-    setCartList((itemCart) => itemCart.filter((item) => item.id !== id));
+  const borrarProducto = (id) => {
+    setCarritoLista((itemCart) => itemCart.filter((item) => item.id !== id));
     toast("😭 Producto Eliminado", {
       position: "top-right",
       autoClose: 3500,
@@ -104,13 +106,13 @@ export const CartContextProvider = ({ children }) => {
   };
 
   //eliminar por unidad de prodcuto
-  const deleteCantidad = (id) => {
-    const index = cartList.findIndex((producto) => producto.id === id);
+  const borrarCantidad = (id) => {
+    const index = carritoLista.findIndex((producto) => producto.id === id);
     if (index !== -1) {
-      const newCartList = [...cartList];
-      if (newCartList[index].cantidad > 1) {
-        newCartList[index].cantidad -= 1; //resto una unidad al producto
-        setCartList(newCartList);
+      const nuevoCarritoLista = [...carritoLista];
+      if (nuevoCarritoLista[index].cantidad > 1) {
+        nuevoCarritoLista[index].cantidad -= 1; //resto una unidad al producto
+        setCarritoLista(nuevoCarritoLista);
         toast("😢 Eliminaste una unidad del producto", {
           position: "top-right",
           autoClose: 3500,
@@ -122,14 +124,14 @@ export const CartContextProvider = ({ children }) => {
           theme: "dark",
         });
       } else {
-        deleteProd(id); //si el producto tiene una sola unidad lo elimino
+        borrarProducto(id); //si el producto tiene una sola unidad lo elimino
       }
     }
   };
 
   //vaciar carrito completo
   const vaciarCarrito = () => {
-    setCartList([]);
+    setCarritoLista([]);
     toast(" Se vacio el carrito", {
       position: "top-right",
       autoClose: 3500,
@@ -145,13 +147,13 @@ export const CartContextProvider = ({ children }) => {
   return (
     <CartContext.Provider
       value={{
-        cartList,
-        addToCart,
+        carritoLista,
+        agregarCarrito,
         vaciarCarrito,
-        deleteProd,
+        borrarProducto,
         cantidadTotalEnCarrito,
         totalCarrito,
-        deleteCantidad,
+        borrarCantidad,
       }}
     >
       {children}

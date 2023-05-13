@@ -1,12 +1,10 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext";
+
 import "./CartWidget.scss";
 
-
-
 const CartWidget = () => {
-
   const { cantidadTotalEnCarrito } = useCartContext();
 
   return (

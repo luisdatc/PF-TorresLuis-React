@@ -1,10 +1,10 @@
 import "./FormDetail.scss";
 
-const FormDetail = ({ createOrder, handleOnChange, dataCheckout }) => {
+const FormDetail = ({ crearOrden, handleOnChange, datosCompra }) => {
   return (
     <>
       <main className="section_form">
-        <form onSubmit={createOrder} className="feed-form">
+        <form onSubmit={crearOrden} className="feed-form">
           <label htmlFor="nombre">Nombre y Apellido</label>
           <input
             name="nombre"
@@ -13,7 +13,7 @@ const FormDetail = ({ createOrder, handleOnChange, dataCheckout }) => {
             type="text"
             id="nombre"
             onChange={handleOnChange}
-            value={dataCheckout.nombre}
+            value={datosCompra.nombre}
           />
           <label htmlFor="telefono">Telefono</label>
           <input
@@ -23,7 +23,7 @@ const FormDetail = ({ createOrder, handleOnChange, dataCheckout }) => {
             type="text"
             id="telefono"
             onChange={handleOnChange}
-            value={dataCheckout.telefono}
+            value={datosCompra.telefono}
           />
           <label htmlFor="correo">Correo Electronico</label>
           <input
@@ -33,7 +33,7 @@ const FormDetail = ({ createOrder, handleOnChange, dataCheckout }) => {
             type="email"
             id="correo"
             onChange={handleOnChange}
-            value={dataCheckout.correo}
+            value={datosCompra.correo}
           />
           <label htmlFor="verifyCorreo">Repetir Correo Electronico</label>
           <input
@@ -43,7 +43,7 @@ const FormDetail = ({ createOrder, handleOnChange, dataCheckout }) => {
             type="email"
             id="verifyCorreo"
             onChange={handleOnChange}
-            value={dataCheckout.verifyCorreo}
+            value={datosCompra.verifyCorreo}
           />
           <button className="button_submit">Crear Orden</button>
         </form>

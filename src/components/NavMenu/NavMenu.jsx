@@ -1,7 +1,8 @@
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import CartWidget from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
+
 import "./NavMenu.scss";
-import { Link, NavLink } from "react-router-dom";
 
 const NavMenu = () => {
   return (
@@ -26,23 +27,6 @@ const NavMenu = () => {
             <Nav.Link href="#contacto" className="nav-links p-0">
               Contacto
             </Nav.Link>
-
-            {/* <NavLink to="/plataforma/ps4" className="nav-links">
-              PS4
-            </NavLink>
-            <NavLink to="/plataforma/ps5" className="nav-links">
-              PS5
-            </NavLink>
-            <NavLink to="/plataforma/nintendo switch" className="nav-links">
-              Nintendo Switch
-            </NavLink>
-            <NavLink to="/plataforma/xbox" className="nav-links">
-              Xbox
-            </NavLink>
-            <NavLink to="/plataforma/pc" className="nav-links">
-              PC
-            </NavLink>
-            <NavLink className="nav-links">Contactanos</NavLink> */}
           </Nav>
           <CartWidget />
         </Navbar.Collapse>

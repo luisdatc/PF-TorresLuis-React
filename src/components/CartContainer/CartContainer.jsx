@@ -4,26 +4,25 @@ import CartItem from "../CartItem/CartItem";
 import CartCheckout from "../CartCheckout/CartCheckout";
 import CartEmpty from "../CartEmpty/CartEmpty";
 
-import "./CartContainer.scss";
 const CartContainer = () => {
-  const { cartList, deleteProd, deleteCantidad } = useCartContext();
+  const { carritoLista, borrarProducto, borrarCantidad } = useCartContext();
 
   const [empty, setEmpty] = useState(false);
 
   useEffect(() => {
-    setEmpty(cartList.length === 0);
-  }, [cartList]);
+    setEmpty(carritoLista.length === 0);
+  }, [carritoLista]);
 
   return (
     <>
       {!empty ? (
         <div className="container w-75" key="cart-container">
-          {cartList.map((prod) => (
+          {carritoLista.map((prod) => (
             <CartItem
               key={prod.id}
               prod={prod}
-              deleteCantidad={deleteCantidad}
-              deleteProd={deleteProd}
+              borrarCantidad={borrarCantidad}
+              borrarProducto={borrarProducto}
             />
           ))}
           <CartCheckout />

@@ -1,21 +1,19 @@
 .cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;//centrar el carrito sino flex end
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    &-counter {
-      color:#798283;
-      font-weight: bold;
-
-    }
-    &-button {
-      border: none;
-      background-color: transparent;
-      cursor: pointer;
-      &-icon {
-        font-size: 1.5rem;
-      }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  &-counter {
+    color: #798283;
+    font-weight: bold;
+  }
+  &-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &-icon {
+      font-size: 1.5rem;
     }
   }
-  
+}

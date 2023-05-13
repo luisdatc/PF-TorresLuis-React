@@ -13,22 +13,20 @@ import {
   where,
 } from "firebase/firestore";
 
-import "./ItemListContainer.scss";
-
 const ItemListContainer = () => {
-  const [productos, SetProductos] = useState([]);
-  const [isLoading, SetIsLoading] = useState(true);
+  const [productos, guardarProductos] = useState([]);
+  const [estaCargando, guardarEstaCargando] = useState(true);
   const { cid } = useParams();
 
-  const getData = () => {
-    try {
-      setTimeout(async () => {
-        const dbFirestore = getFirestore();
-        const queryCollection = collection(dbFirestore, "productos");
+  useEffect(() => {
+    const dbFirestore = getFirestore();
+    const queryCollection = collection(dbFirestore, "productos");
 
+    if (!cid) {
+      setTimeout(async () => {
         getDocs(queryCollection)
           .then((resp) =>
-            SetProductos(
+            guardarProductos(
               resp.docs.map((productos) => ({
                 id: productos.id,
                 ...productos.data(),
@@ -36,18 +34,9 @@ const ItemListContainer = () => {
             )
           )
           .catch((err) => console.log(err))
-          .finally(() => SetIsLoading(false));
+          .finally(() => guardarEstaCargando(false));
       }, 2500);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  const getDataCategory = () => {
-    try {
-      const dbFirestore = getFirestore();
-      const queryCollection = collection(dbFirestore, "productos");
-
+    } else {
       const queryFiltrada = query(
         queryCollection,
         where("plataforma", "==", cid)
@@ -55,7 +44,7 @@ const ItemListContainer = () => {
 
       getDocs(queryFiltrada)
         .then((resp) =>
-          SetProductos(
+          guardarProductos(
             resp.docs.map((productos) => ({
               id: productos.id,
               ...productos.data(),
@@ -63,19 +52,7 @@ const ItemListContainer = () => {
           )
         )
         .catch((err) => console.log(err))
-        .finally(() => SetIsLoading(false));
-/*       setTimeout(async () => {
-      }, 1000); */
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    if (!cid) {
-      getData();
-    } else {
-      getDataCategory();
+        .finally(() => guardarEstaCargando(false));
       setPagina(1);
     }
   }, [cid]);
@@ -91,7 +68,7 @@ const ItemListContainer = () => {
       <div className="container w-75 mx-auto">
         <div className="row">
           <PlatformIcon />
-          {isLoading ? (
+          {estaCargando ? (
             <Loader />
           ) : (
             <ItemList data={productos} pagina={pagina} porPagina={porPagina} />
